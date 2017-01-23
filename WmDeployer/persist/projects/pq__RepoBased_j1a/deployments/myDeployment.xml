@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="auditReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484650223947.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484651332653.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484654436222.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484805658402.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484806208192.xml</string>
+   </void>
+  </void>
+  <void property="buildName">
+   <string>Repo_Based_1484650192821.build</string>
+  </void>
+  <void property="checkpointReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\checkpoints\myDeployment\pq__RepoBasedCheckpoint_otb\reports\CheckpointReport_1484650210460.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\checkpoints\myDeployment\pq__RepoBasedCheckpoint_otb\reports\CheckpointReport_1484651271923.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\checkpoints\myDeployment\pq__RepoBasedCheckpoint_otb\reports\CheckpointReport_1484654375548.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\checkpoints\myDeployment\pq__RepoBasedCheckpoint_otb\reports\CheckpointReport_1484805656982.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\checkpoints\myDeployment\pq__RepoBasedCheckpoint_otb\reports\CheckpointReport_1484806207105.xml</string>
+   </void>
+  </void>
+  <void property="checkpointed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deployed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deploymentId">
+   <string>adc63e80-554a-4839-85f3-fa36375e9323</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>myDeploymentMap</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="name">
+   <string>myDeployment</string>
+  </void>
+  <void property="preDeployReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1484650200093.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1484651035696.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1484658041595.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1484732610833.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1484805632004.xml</string>
+   </void>
+  </void>
+  <void property="projectName">
+   <string>Repo_Based</string>
+  </void>
+  <void property="rollbackReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__RepoBased_j1a\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484650312786.xml</string>
+   </void>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

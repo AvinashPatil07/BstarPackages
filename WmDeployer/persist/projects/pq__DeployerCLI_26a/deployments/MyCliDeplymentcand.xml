@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="auditReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__DeployerCLI_26a\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484125924800.xml</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__DeployerCLI_26a\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484302080050.xml</string>
+   </void>
+  </void>
+  <void property="beginTimestamp">
+   <string>2017-01-13 15:37:59 IST</string>
+  </void>
+  <void property="buildName">
+   <string>MyCliBuild</string>
+  </void>
+  <void property="checkpointReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI_26a\checkpoints\MyCliDeplymentcand\pq__DeployerCLICheckpoint_7yb\reports\CheckpointReport_1484125635372.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI_26a\checkpoints\MyCliDeplymentcand\pq__DeployerCLICheckpoint_7yb\reports\CheckpointReport_1484302049210.xml</string>
+   </void>
+  </void>
+  <void property="checkpointed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deployed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deploymentId">
+   <string>5c73049e-c6c3-44d1-b5c6-0e98161906c8</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>myDeploymentMap</string>
+  </void>
+  <void property="dummyReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__DeployerCLI_26a\targets\myDeploymentMap\reports\deploySimulateRollback.xsl</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__DeployerCLI_26a\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484125924800.html</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__DeployerCLI_26a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1484302033954.html</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__DeployerCLI_26a\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484302080050.html</string>
+   </void>
+  </void>
+  <void property="name">
+   <string>MyCliDeplymentcand</string>
+  </void>
+  <void property="preDeployReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__DeployerCLI_26a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1484302033954.xml</string>
+   </void>
+  </void>
+  <void property="projectName">
+   <string>Deployer_CLI</string>
+  </void>
+  <void property="user">
+   <string>Administrator</string>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

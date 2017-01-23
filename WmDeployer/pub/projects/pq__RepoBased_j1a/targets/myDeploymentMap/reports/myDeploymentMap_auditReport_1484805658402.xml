@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="0" type="Deploy">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-01-19 11:30:58 IST</startTime>
+<projectName>Repo_Based</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-19 11:30:58 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1168] Deleted previously delivered artifacts successfully for IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-19 11:30:58 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1164] Artifacts delivered successfully to IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-19 11:30:59 IST" type="SUCCESS">
+<messagebody>BstarBPM package installed and activated. The original package has been moved to package recovery area. Package has been moved to archive area as BstarBPM.zip_20170119113059.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+<asset name="BstarBPM" type="ispackage"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-19 11:30:59 IST</endTime>
+</Report>

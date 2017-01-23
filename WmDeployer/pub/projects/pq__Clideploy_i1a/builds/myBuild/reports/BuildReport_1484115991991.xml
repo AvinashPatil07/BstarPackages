@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Build">
+<buildName>myBuild</buildName>
+<projectDescription/>
+<buildDesc/>
+<startTime>Wed Jan 11 11:56:31 IST 2017</startTime>
+<projectName>Cli_deploy</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-11 11:57:06 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0051] Extracted IS package "BstarCanonical"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="Cli_deploy_myBuild_1484115995159" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-11 11:57:07 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0052] Extracted IS package "BstarCanonical" node ACLs</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="packageName" type="PackageNodeACL"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-11 11:57:09 IST</endTime>
+</Report>

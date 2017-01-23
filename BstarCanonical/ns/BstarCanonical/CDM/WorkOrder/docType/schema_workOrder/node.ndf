@@ -1,0 +1,2897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="schema" javaclass="com.wm.util.Values">
+    <value name="node_type">schema</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">BstarCanonical.WorkOrder:schema_workOrder</value>
+    <value name="node_pkg">BstarCanonical</value>
+    <value name="is_public">false</value>
+    <value name="contentType">3</value>
+    <value name="targetNamespace">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+    <record name="attributes" javaclass="com.wm.util.Values">
+      <list name="table">
+      </list>
+    </record>
+    <record name="elements" javaclass="com.wm.util.Values">
+      <list name="table">
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">WorkOrder</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">reference</value>
+            <record name="targetName" javaclass="com.wm.util.Values">
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="ncName">WorkOrderType</value>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+      </list>
+    </record>
+    <record name="types" javaclass="com.wm.util.Values">
+      <list name="table">
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">WorkOrderLineType</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">ID</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                  <value name="ncName">IdentificationType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">AuditHistory</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                </list>
+                <list name="attributes">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">attribute</value>
+                    <value name="name">CreatedBy</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="required">false</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">attribute</value>
+                    <value name="name">CreatedDateTime</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">dateTime</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="required">false</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">attribute</value>
+                    <value name="name">UpdatedBy</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="required">false</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">attribute</value>
+                    <value name="name">UpdatedDateTime</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">dateTime</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="required">false</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$EMPTY</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">empty</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">Status</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                  <value name="ncName">StatusType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">Note</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                  <value name="ncName">NoteType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">AppointmentWindow</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">ID</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">IdentificationType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">StartTimePeriod</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">TimeDurationType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">ID</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">StartTimePeriod</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">WorkerReference</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">WorkerIdentification</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">IdentificationType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">PersonName</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">instance</value>
+                      <list name="elements">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">element</value>
+                          <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                          <value name="name">ID</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">2</value>
+                            <value name="internalType">reference</value>
+                            <record name="targetName" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                              <value name="ncName">IdentificationType</value>
+                            </record>
+                          </record>
+                          <value name="form">true</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">element</value>
+                          <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                          <value name="name">EffectiveTimePeriod</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">2</value>
+                            <value name="internalType">reference</value>
+                            <record name="targetName" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                              <value name="ncName">TimeDurationType</value>
+                            </record>
+                          </record>
+                          <value name="form">true</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                      </list>
+                      <list name="attributes">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">TypeCode</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">FullName</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">FirstName</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">MiddleName</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">FamilyName</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">MaidenName</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">Title</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">Salutation</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">Prefix</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">Suffix</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">MilitaryRank</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">PreferredName</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">Alias</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                      </list>
+                      <record name="contentModel" javaclass="com.wm.util.Values">
+                        <record name="symbol" javaclass="com.wm.util.Values">
+                          <value name="ncName">$$SEQUENCE</value>
+                        </record>
+                        <value name="minOccurs">1</value>
+                        <value name="maxOccurs">1</value>
+                        <value name="modelType">sequence</value>
+                        <list name="children">
+                          <record javaclass="com.wm.util.Values">
+                            <record name="symbol" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                              <value name="ncName">ID</value>
+                            </record>
+                            <value name="minOccurs">0</value>
+                            <value name="maxOccurs">1</value>
+                            <value name="modelType">simple</value>
+                          </record>
+                          <record javaclass="com.wm.util.Values">
+                            <record name="symbol" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                              <value name="ncName">EffectiveTimePeriod</value>
+                            </record>
+                            <value name="minOccurs">1</value>
+                            <value name="maxOccurs">1</value>
+                            <value name="modelType">simple</value>
+                          </record>
+                        </list>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">PhoneCommunication</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">CommunicationType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">EmailCommunication</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">CommunicationType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">WorkerIdentification</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">PersonName</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">PhoneCommunication</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">EmailCommunication</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">WorkOrderInstalledProductReplacement</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderInstalledProductReplacementType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">WorkOrderInstalledProduct</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderInstalledProductType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">WorkOrderLineRemark</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">ID</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">IdentificationType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">Remark</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">instance</value>
+                      <list name="elements">
+                      </list>
+                      <list name="attributes">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">Code</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">Comment</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                      </list>
+                      <record name="contentModel" javaclass="com.wm.util.Values">
+                        <record name="symbol" javaclass="com.wm.util.Values">
+                          <value name="ncName">$$EMPTY</value>
+                        </record>
+                        <value name="minOccurs">0</value>
+                        <value name="maxOccurs">1</value>
+                        <value name="modelType">empty</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">ID</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">Remark</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">WorkOrderActualMaterial</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">ID</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">IdentificationType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">Status</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">StatusType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">ItemInstance</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">instance</value>
+                      <list name="elements">
+                      </list>
+                      <list name="attributes">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">SerialNumber</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">long</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">LotNumber</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">long</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">ExpirationDateTime</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">dateTime</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">RFID</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">Description</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                      </list>
+                      <record name="contentModel" javaclass="com.wm.util.Values">
+                        <record name="symbol" javaclass="com.wm.util.Values">
+                          <value name="ncName">$$EMPTY</value>
+                        </record>
+                        <value name="minOccurs">0</value>
+                        <value name="maxOccurs">1</value>
+                        <value name="modelType">empty</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">InventoryTransactionReference</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">instance</value>
+                      <list name="elements">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">element</value>
+                          <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                          <value name="name">InventoryTransactionIdentification</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">2</value>
+                            <value name="internalType">reference</value>
+                            <record name="targetName" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                              <value name="ncName">IdentificationType</value>
+                            </record>
+                          </record>
+                          <value name="form">true</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                      </list>
+                      <list name="attributes">
+                      </list>
+                      <record name="contentModel" javaclass="com.wm.util.Values">
+                        <record name="symbol" javaclass="com.wm.util.Values">
+                          <value name="ncName">$$SEQUENCE</value>
+                        </record>
+                        <value name="minOccurs">1</value>
+                        <value name="maxOccurs">1</value>
+                        <value name="modelType">sequence</value>
+                        <list name="children">
+                          <record javaclass="com.wm.util.Values">
+                            <record name="symbol" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                              <value name="ncName">InventoryTransactionIdentification</value>
+                            </record>
+                            <value name="minOccurs">0</value>
+                            <value name="maxOccurs">1</value>
+                            <value name="modelType">simple</value>
+                          </record>
+                        </list>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">ItemReference</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">ItemReferenceType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">InventoryLocationReference</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">LocationReferenceType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">ID</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">Status</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">ItemInstance</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">InventoryTransactionReference</value>
+                      </record>
+                      <value name="minOccurs">1</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">ItemReference</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">InventoryLocationReference</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">WorkOrderEstimatedMaterial</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">ID</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">IdentificationType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">Status</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">StatusType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">ItemReference</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">ItemReferenceType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">ID</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">Status</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">ItemReference</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">WorkOrderDirectChargeExpense</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">ID</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">IdentificationType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">TeamReference</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">instance</value>
+                      <list name="elements">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">element</value>
+                          <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                          <value name="name">TeamIdentification</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">2</value>
+                            <value name="internalType">reference</value>
+                            <record name="targetName" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                              <value name="ncName">IdentificationType</value>
+                            </record>
+                          </record>
+                          <value name="form">true</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                      </list>
+                      <list name="attributes">
+                      </list>
+                      <record name="contentModel" javaclass="com.wm.util.Values">
+                        <record name="symbol" javaclass="com.wm.util.Values">
+                          <value name="ncName">$$SEQUENCE</value>
+                        </record>
+                        <value name="minOccurs">1</value>
+                        <value name="maxOccurs">1</value>
+                        <value name="modelType">sequence</value>
+                        <list name="children">
+                          <record javaclass="com.wm.util.Values">
+                            <record name="symbol" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                              <value name="ncName">TeamIdentification</value>
+                            </record>
+                            <value name="minOccurs">0</value>
+                            <value name="maxOccurs">1</value>
+                            <value name="modelType">simple</value>
+                          </record>
+                        </list>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">WorkOrderDirectChargeExpenseLine</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">instance</value>
+                      <list name="elements">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">element</value>
+                          <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                          <value name="name">ID</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">2</value>
+                            <value name="internalType">reference</value>
+                            <record name="targetName" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                              <value name="ncName">IdentificationType</value>
+                            </record>
+                          </record>
+                          <value name="form">true</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">element</value>
+                          <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                          <value name="name">ChargedObjectReference</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">2</value>
+                            <value name="internalType">instance</value>
+                            <list name="elements">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="tagType">element</value>
+                                <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                                <value name="name">ObjectIdentification</value>
+                                <record name="type" javaclass="com.wm.util.Values">
+                                  <value name="contentType">2</value>
+                                  <value name="internalType">reference</value>
+                                  <record name="targetName" javaclass="com.wm.util.Values">
+                                    <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                                    <value name="ncName">IdentificationType</value>
+                                  </record>
+                                </record>
+                                <value name="form">true</value>
+                                <value name="internalType">instance</value>
+                              </record>
+                            </list>
+                            <list name="attributes">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="tagType">attribute</value>
+                                <value name="name">TypeCode</value>
+                                <record name="type" javaclass="com.wm.util.Values">
+                                  <value name="contentType">1</value>
+                                  <value name="internalType">reference</value>
+                                  <value name="dataTypeVersion">dtVersion2</value>
+                                  <array name="targetNames" type="record" depth="1">
+                                    <record javaclass="com.wm.util.Values">
+                                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                      <value name="ncName">string</value>
+                                    </record>
+                                  </array>
+                                </record>
+                                <value name="required">false</value>
+                                <value name="internalType">instance</value>
+                              </record>
+                            </list>
+                            <record name="contentModel" javaclass="com.wm.util.Values">
+                              <record name="symbol" javaclass="com.wm.util.Values">
+                                <value name="ncName">$$SEQUENCE</value>
+                              </record>
+                              <value name="minOccurs">1</value>
+                              <value name="maxOccurs">1</value>
+                              <value name="modelType">sequence</value>
+                              <list name="children">
+                                <record javaclass="com.wm.util.Values">
+                                  <record name="symbol" javaclass="com.wm.util.Values">
+                                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                                    <value name="ncName">ObjectIdentification</value>
+                                  </record>
+                                  <value name="minOccurs">0</value>
+                                  <value name="maxOccurs">1</value>
+                                  <value name="modelType">simple</value>
+                                </record>
+                              </list>
+                            </record>
+                          </record>
+                          <value name="form">true</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">element</value>
+                          <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                          <value name="name">SupplierPartyReference</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">2</value>
+                            <value name="internalType">reference</value>
+                            <record name="targetName" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                              <value name="ncName">PartyReferenceType</value>
+                            </record>
+                          </record>
+                          <value name="form">true</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                      </list>
+                      <list name="attributes">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">TypeCode</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">string</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">Quantity</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">float</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="tagType">attribute</value>
+                          <value name="name">TotalAmount</value>
+                          <record name="type" javaclass="com.wm.util.Values">
+                            <value name="contentType">1</value>
+                            <value name="internalType">reference</value>
+                            <value name="dataTypeVersion">dtVersion2</value>
+                            <array name="targetNames" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                <value name="ncName">float</value>
+                              </record>
+                            </array>
+                          </record>
+                          <value name="required">false</value>
+                          <value name="internalType">instance</value>
+                        </record>
+                      </list>
+                      <record name="contentModel" javaclass="com.wm.util.Values">
+                        <record name="symbol" javaclass="com.wm.util.Values">
+                          <value name="ncName">$$SEQUENCE</value>
+                        </record>
+                        <value name="minOccurs">1</value>
+                        <value name="maxOccurs">1</value>
+                        <value name="modelType">sequence</value>
+                        <list name="children">
+                          <record javaclass="com.wm.util.Values">
+                            <record name="symbol" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                              <value name="ncName">ID</value>
+                            </record>
+                            <value name="minOccurs">0</value>
+                            <value name="maxOccurs">1</value>
+                            <value name="modelType">simple</value>
+                          </record>
+                          <record javaclass="com.wm.util.Values">
+                            <record name="symbol" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                              <value name="ncName">ChargedObjectReference</value>
+                            </record>
+                            <value name="minOccurs">0</value>
+                            <value name="maxOccurs">1</value>
+                            <value name="modelType">simple</value>
+                          </record>
+                          <record javaclass="com.wm.util.Values">
+                            <record name="symbol" javaclass="com.wm.util.Values">
+                              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                              <value name="ncName">SupplierPartyReference</value>
+                            </record>
+                            <value name="minOccurs">0</value>
+                            <value name="maxOccurs">1</value>
+                            <value name="modelType">simple</value>
+                          </record>
+                        </list>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">attribute</value>
+                    <value name="name">ExpenseDateTime</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">dateTime</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="required">false</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">ID</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">TeamReference</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">WorkOrderDirectChargeExpenseLine</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">AdditionalReferences</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">Reference</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">AttributeType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">Reference</value>
+                      </record>
+                      <value name="minOccurs">1</value>
+                      <value name="maxOccurs">*</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">AdditionalAttributes</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">Attribute</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">AttributeType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">Attribute</value>
+                      </record>
+                      <value name="minOccurs">1</value>
+                      <value name="maxOccurs">*</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">ActualStartDateTime</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">dateTime</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">TypeCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">PlannedEndDateTime</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">dateTime</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">Description</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">ProblemCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">CustomerInteractionRequiredIndicator</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">DisconnectLocationTypeCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">FailureCauseCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">FailureModeCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">RepairCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">FurtherActionCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">ID</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">AuditHistory</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">Status</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">Note</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">AppointmentWindow</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkerReference</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderInstalledProductReplacement</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderInstalledProduct</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderLineRemark</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderActualMaterial</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderEstimatedMaterial</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderDirectChargeExpense</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">AdditionalReferences</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">AdditionalAttributes</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="ncName">WorkOrderLineType</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">InstalledProductReferenceType</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">InstalledProductIdentification</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                  <value name="ncName">IdentificationType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">LocationReference</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                  <value name="ncName">LocationReferenceType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">InstalledProductIdentification</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">LocationReference</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="ncName">InstalledProductReferenceType</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">WorkOrderInstalledProductType</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">Status</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                  <value name="ncName">StatusType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">InstalledProductReference</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">InstalledProductReferenceType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">TypeCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">Status</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">InstalledProductReference</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="ncName">WorkOrderInstalledProductType</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">CommunicationType</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">Preference</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                </list>
+                <list name="attributes">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">attribute</value>
+                    <value name="name">PriorityRanking</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="required">false</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">attribute</value>
+                    <value name="name">PreferredIndicator</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="required">false</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$EMPTY</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">empty</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">PrivacyProfile</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                </list>
+                <list name="attributes">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">attribute</value>
+                    <value name="name">OptOutIndicator</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="required">false</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">attribute</value>
+                    <value name="name">SourceCode</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="required">false</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">attribute</value>
+                    <value name="name">ReasonCode</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="required">false</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$EMPTY</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">empty</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">HTMLPreferredIndicator</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">URI</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">UseCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">Preference</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">PrivacyProfile</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="ncName">CommunicationType</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">WorkOrderType</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">MessageHeader</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                  <value name="ncName">TransactionLogType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">MessageBody</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderDetailsType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">MessageHeader</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">MessageBody</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="ncName">WorkOrderType</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">WorkOrderInstalledProductReplacementType</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">WorkOrderInstalledProduct</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderInstalledProductType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderInstalledProduct</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="ncName">WorkOrderInstalledProductReplacementType</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">WorkOrderDetailsType</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">ID</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                  <value name="ncName">IdentificationType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">Description</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">Status</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                  <value name="ncName">StatusType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">OrganizationUnitReference</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">OrganizationUnitIdentification</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">IdentificationType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">OrganizationUnitIdentification</value>
+                      </record>
+                      <value name="minOccurs">0</value>
+                      <value name="maxOccurs">1</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">CustomerPartyReference</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                  <value name="ncName">CustomerPartyReferenceType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">WorkOrderLine</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderLineType</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">AdditionalReferences</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">Reference</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">AttributeType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">Reference</value>
+                      </record>
+                      <value name="minOccurs">1</value>
+                      <value name="maxOccurs">*</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="name">AdditionalAttributes</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">instance</value>
+                <list name="elements">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="tagType">element</value>
+                    <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                    <value name="name">Attribute</value>
+                    <record name="type" javaclass="com.wm.util.Values">
+                      <value name="contentType">2</value>
+                      <value name="internalType">reference</value>
+                      <record name="targetName" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:Common:Common:v1</value>
+                        <value name="ncName">AttributeType</value>
+                      </record>
+                    </record>
+                    <value name="form">true</value>
+                    <value name="internalType">instance</value>
+                  </record>
+                </list>
+                <list name="attributes">
+                </list>
+                <record name="contentModel" javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="ncName">$$SEQUENCE</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">sequence</value>
+                  <list name="children">
+                    <record javaclass="com.wm.util.Values">
+                      <record name="symbol" javaclass="com.wm.util.Values">
+                        <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                        <value name="ncName">Attribute</value>
+                      </record>
+                      <value name="minOccurs">1</value>
+                      <value name="maxOccurs">*</value>
+                      <value name="modelType">simple</value>
+                    </record>
+                  </list>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">ActualEndDateTime</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">dateTime</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">ActualStartDateTime</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">dateTime</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">OperationAreaCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">DispatchGroupCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">ID</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">Description</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">Status</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">OrganizationUnitReference</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">CustomerPartyReference</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">WorkOrderLine</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">AdditionalReferences</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+                  <value name="ncName">AdditionalAttributes</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1</value>
+              <value name="ncName">WorkOrderDetailsType</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+      </list>
+    </record>
+    <record name="uriReferencePrefixPairs" javaclass="com.wm.util.Values">
+      <value name="urn:Brightstar:CDM:Common:Address:v1">ns01</value>
+      <value name="http://www.w3.org/2001/XMLSchema">xs</value>
+      <value name="urn:Brightstar:CDM:Common:Common:v1">ns0</value>
+      <value name="urn:Brightstar:CDM:WarehouseManagement:WorkOrder:v1">ns</value>
+    </record>
+    <value name="originURI">file:///E:\BrightStar\CDM\XSDs-2016-12-05\XSDs\WorkOrder.xsd</value>
+    <value name="modifiable">false</value>
+  </record>
+</Values>

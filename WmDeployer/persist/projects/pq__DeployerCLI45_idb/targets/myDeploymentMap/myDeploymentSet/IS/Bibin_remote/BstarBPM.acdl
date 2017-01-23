@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:sample="http://sample" name="BstarBPM" runtimeVersion="9.12.0.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS">
+<implementation.generic type="ispackage"/>
+<property displayName="Activate Package On Install" name="activatePkgOnInstall">
+<value>true</value>
+</property>
+<property displayName="Archive Package On Install" name="archivePkgOnInstall">
+<value>true</value>
+</property>
+<property displayName="Compile Package On Install" name="compilePackage">
+<value>true</value>
+</property>
+<property displayName="Fragment Package On Install" name="fragPackage">
+<value>true</value>
+</property>
+<property displayName="Delete ACLs for the assets from the target Integration Server" name="clearACLs">
+<value>false</value>
+</property>
+<property displayName="disallowActivePackageInstall" name="disallowActivePackageInstall">
+<value>false</value>
+</property>
+<property displayName="packageExecutionCheck" name="packageExecutionCheck">
+<value>0</value>
+</property>
+<property displayName="Suspend Triggers During Deployment" name="suspendTriggersDuringDeploy">
+<value>false</value>
+</property>
+<property displayName="Synchronize Document Types To Broker During Deployment" name="syncDocTypesToBroker">
+<value>true</value>
+</property>
+<asset displayName="BstarBPM" name="ISPackage.BstarBPM">
+<implementation.generic type="ispackage"/>
+</asset>
+<asset displayName="BstarBPM.Connectors.Providers:employeeExit" name="BstarBPM.Connectors.Providers.employeeExit">
+<implementation.generic type="iswsdprovider"/>
+<dependsOn>IS:BstarBPM.Services.processEmployeeExit</dependsOn>
+</asset>
+<asset displayName="BstarBPM.Docs:employee" name="BstarBPM.Docs.employee">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarBPM.Services:sendNotification" name="BstarBPM.Services.sendNotification">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarBPM.Docs.employee</dependsOn>
+</asset>
+<asset displayName="BstarBPM.Services:processEmployeeExit" name="BstarBPM.Services.processEmployeeExit">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarBPM.Docs.employee</dependsOn>
+</asset>
+<asset displayName="pub" name="BstarBPM.pub">
+<implementation.generic type="isfolder"/>
+</asset>
+</asset_composite>

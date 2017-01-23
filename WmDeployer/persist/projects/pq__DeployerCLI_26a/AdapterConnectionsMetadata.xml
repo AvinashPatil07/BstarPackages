@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="ISACM" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="DeploymentSet">myDeploymentSet</value>
+      <value name="sourceAlias">Local</value>
+      <value name="packageName">BstarTest</value>
+      <value name="nodeName">BstarTest.connections:BstarJDBCConnection</value>
+      <null name="metadata"/>
+    </record>
+  </record>
+</IDataXMLCoder>

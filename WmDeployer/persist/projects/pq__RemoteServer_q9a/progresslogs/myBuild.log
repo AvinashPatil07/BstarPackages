@@ -1,0 +1,11 @@
+2017-01-23 15:44:22 IST Initiating Progress Report for the Build operation
+2017-01-23 15:44:22 IST Starting deployer build for project Remote_Server
+2017-01-23 15:44:22 IST  Processing deployment set myDeploymentSet
+2017-01-23 15:44:22 IST Processing IS source server Local
+2017-01-23 15:44:22 IST Initiating add operation on package BstarBPM to the build
+2017-01-23 15:44:23 IST Done with the add operation on package BstarBPM to the build
+2017-01-23 15:44:23 IST Initiating add operation on acls Anonymous, Default
+2017-01-23 15:44:23 IST Done with the add operation on acls Anonymous, Default
+2017-01-23 15:44:23 IST Completed processing IS source server Local
+2017-01-23 15:44:23 IST Completed Processing Of deployment set myDeploymentSet
+2017-01-23 15:44:23 IST Completed generating Progress Report for the Build operation.

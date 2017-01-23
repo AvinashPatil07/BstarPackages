@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Checkpoint">
+<depCandidate>MyCliDeplymentcand</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<buildName>MyCliBuild</buildName>
+<checkpointName>Deployer_CLICheckpoint</checkpointName>
+<projectDescription/>
+<startTime>Wed Jan 11 14:37:15 IST 2017</startTime>
+<projectName>Deployer_CLI</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-11 14:37:22 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0051] Extracted IS package "BstarTest"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="Deployer_CLI_Deployer_CLICheckpoint_1484125636170" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-11 14:37:22 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0052] Extracted IS package "BstarTest" node ACLs</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="packageName" type="PackageNodeACL"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-11 14:37:22 IST</endTime>
+</Report>

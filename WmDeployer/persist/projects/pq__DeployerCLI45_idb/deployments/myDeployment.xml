@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="auditReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI45_idb\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484646950526.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI45_idb\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484648948276.xml</string>
+   </void>
+  </void>
+  <void property="buildName">
+   <string>Deployer_CLI45_1484646197129.build</string>
+  </void>
+  <void property="checkpointReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI45_idb\checkpoints\myDeployment\pq__DeployerCLI45Checkpoint_n4b\reports\CheckpointReport_1484646924715.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI45_idb\checkpoints\myDeployment\pq__DeployerCLI45Checkpoint_n4b\reports\CheckpointReport_1484648919705.xml</string>
+   </void>
+  </void>
+  <void property="checkpointed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deploymentId">
+   <string>0ce4edd2-397d-4db2-8449-8724a2ac3eb6</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>myDeploymentMap</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="name">
+   <string>myDeployment</string>
+  </void>
+  <void property="preDeployReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI45_idb\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1484646197812.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI45_idb\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1484646914130.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI45_idb\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1484648911157.xml</string>
+   </void>
+  </void>
+  <void property="projectName">
+   <string>Deployer_CLI45</string>
+  </void>
+  <void property="rollbackReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI45_idb\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484646998806.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__DeployerCLI45_idb\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1484649049023.xml</string>
+   </void>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

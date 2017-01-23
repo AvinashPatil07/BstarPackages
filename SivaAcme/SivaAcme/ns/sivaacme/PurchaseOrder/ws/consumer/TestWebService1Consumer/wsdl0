@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="TestWebService1" targetNamespace="http://cheddes/sivaacme.PurchaseOrder.ws.provider:TestWebService1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soapjms="http://www.w3.org/2010/soapjms/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://cheddes/sivaacme.PurchaseOrder.ws.provider:TestWebService1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://cheddes/sivaacme.PurchaseOrder.ws.provider:TestWebService1" xmlns:tns="http://cheddes/sivaacme.PurchaseOrder.ws.provider:TestWebService1" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <xsd:element name="branch1" type="tns:branch1"/>
+          <xsd:element name="branch1Response" type="tns:branch1Response"/>
+          <xsd:complexType name="branch1">
+            <xsd:sequence>
+              <xsd:element name="testValue" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="branch1Response">
+            <xsd:sequence>
+              <xsd:element name="message" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        	</xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="TestWebService1_PortType_branch1Response">
+    <wsdl:part name="parameters" element="tns:branch1Response">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="TestWebService1_PortType_branch1">
+    <wsdl:part name="parameters" element="tns:branch1">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="TestWebService1_PortType">
+    <wsdl:operation name="branch1">
+      <wsdl:input message="tns:TestWebService1_PortType_branch1">
+    </wsdl:input>
+      <wsdl:output message="tns:TestWebService1_PortType_branch1Response">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="sivaacme_PurchaseOrder_ws_provider_TestWebService1_Binder" type="tns:TestWebService1_PortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="branch1">
+      <soap:operation soapAction="sivaacme_PurchaseOrder_ws_provider_TestWebService1_Binder_branch1" style="document"/>
+      <wsdl:input>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="sivaacme.PurchaseOrder.ws.provider.TestWebService1">
+    <wsdl:port name="sivaacme_PurchaseOrder_ws_provider_TestWebService1_Port" binding="tns:sivaacme_PurchaseOrder_ws_provider_TestWebService1_Binder">
+      <soap:address location="http://localhost:5555/ws/sivaacme.PurchaseOrder.ws.provider:TestWebService1/sivaacme_PurchaseOrder_ws_provider_TestWebService1_Port"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

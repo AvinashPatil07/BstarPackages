@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?><asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:sample="http://sample" name="BstarTest" runtimeVersion="9.12.0.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS">
+<implementation.generic type="ispackage"/>
+<property displayName="Activate Package On Install" name="activatePkgOnInstall">
+<value>true</value>
+</property>
+<property displayName="Archive Package On Install" name="archivePkgOnInstall">
+<value>true</value>
+</property>
+<property displayName="Compile Package On Install" name="compilePackage">
+<value>true</value>
+</property>
+<property displayName="Fragment Package On Install" name="fragPackage">
+<value>true</value>
+</property>
+<property displayName="Delete ACLs for the assets from the target Integration Server" name="clearACLs">
+<value>false</value>
+</property>
+<property displayName="disallowActivePackageInstall" name="disallowActivePackageInstall">
+<value>false</value>
+</property>
+<property displayName="packageExecutionCheck" name="packageExecutionCheck">
+<value>0</value>
+</property>
+<property displayName="Suspend Triggers During Deployment" name="suspendTriggersDuringDeploy">
+<value>false</value>
+</property>
+<property displayName="Synchronize Document Types To Broker During Deployment" name="syncDocTypesToBroker">
+<value>true</value>
+</property>
+<asset displayName="BstarTest" name="ISPackage.BstarTest">
+<implementation.generic type="ispackage"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors:ProcurementManager_processPurchaseOrder" name="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_processPurchaseOrder">
+<implementation.generic type="iswsconnector"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrder_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrder_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors:ProcurementManager_getPurchaseOrderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrderV2">
+<implementation.generic type="iswsconnector"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderV2_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderV2_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors:ProcurementManager_getPurchaseOrderDetailForApprover" name="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrderDetailForApprover">
+<implementation.generic type="iswsconnector"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderDetailForApprover_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderDetailForApprover_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors:ProcurementManager_getPurchaseOrdersCounts" name="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrdersCounts">
+<implementation.generic type="iswsconnector"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersCounts_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersCounts_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors:ProcurementManager_processPurchaseOrderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_processPurchaseOrderV2">
+<implementation.generic type="iswsconnector"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderV2_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderV2_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors:ProcurementManager_getPurchaseOrdersForApprover" name="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrdersForApprover">
+<implementation.generic type="iswsconnector"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersForApprover_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersForApprover_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors:ProcurementManager_getPurchaseOrderEmployeeProfile" name="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrderEmployeeProfile">
+<implementation.generic type="iswsconnector"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderEmployeeProfile_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderEmployeeProfile_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors:ProcurementManager_processPurchaseOrderAcknowledge" name="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_processPurchaseOrderAcknowledge">
+<implementation.generic type="iswsconnector"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderAcknowledge_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderAcknowledge_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors:ProcurementManager_processPurchaseOrderApproveReject" name="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_processPurchaseOrderApproveReject">
+<implementation.generic type="iswsconnector"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderApproveReject_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderApproveReject_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors:ProcurementManager_getPurchaseOrder" name="BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrder">
+<implementation.generic type="iswsconnector"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrder_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrder_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrderEmployeeProfile_Output" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderEmployeeProfile_Output">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrderEmployeeProfile</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrdersCounts_Output" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersCounts_Output">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrdersCounts</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrdersForApprover" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrdersForApprover">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_processPurchaseOrder_Input" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrder_Input">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_processPurchaseOrder</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrder_Input" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrder_Input">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrder</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderProcessing" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderProcessing">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAcknowledgeTax" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeTax">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_processPurchaseOrderApproveReject" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_processPurchaseOrderApproveReject">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderRemarksDetail</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderDatesHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDatesHeader">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_processPurchaseOrder_Output" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrder_Output">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrder</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderGetDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetDetail">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetDetailDates</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_itemGroupSupplier</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_originalOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetQuantity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_relatedOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrderDetailForApprover_Output" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderDetailForApprover_Output">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrderDetailForApprover</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderFinancialDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderFinancialDetail">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_glAccount</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_glAccountKey</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:schema_procurementManager_2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.schema_procurementManager_2">
+<implementation.generic type="isschema"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderDeliveryHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDeliveryHeader">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderGetHeaderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetHeaderV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetDates</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetDetailV2</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderLineKey" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderLineKey">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShipToAddressHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShipToAddressHeader">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAddress</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_BusinessServiceException" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrdersCounts_Input" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersCounts_Input">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrdersCounts</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowQuantity" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowQuantity">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderApproveReject" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderApproveReject">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1MessageList</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderQuantity" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderQuantity">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrderEmployeeProfile" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrderEmployeeProfile">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1MessageList</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderDeliveryHeaderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDeliveryHeaderV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrder" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrder">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1MessageList</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrder</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderHeader">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderFinancialHeader</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderAcknowledgeHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderAcknowledgeHeader">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderAcknowledgeDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderKey</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderHeader">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDatesHeader</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDeliveryHeader</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderProcessing</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShipToAddressHeader</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderSupplierAddressHeader</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderTaxHeader</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrderDetailForApprover" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrderDetailForApprover">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAcknowledgeHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeHeader">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeFinancial</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeTax</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_processPurchaseOrderApproveReject_Output" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderApproveReject_Output">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderApproveReject</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_relatedOrderLineKey" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_relatedOrderLineKey">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowKey" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowKey">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAcknowledgeFinancial" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeFinancial">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_processPurchaseOrderV2_Input" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderV2_Input">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_processPurchaseOrderV2</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_userReservedData" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderDatesDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDatesDetail">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrder" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrder">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1MessageList</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderHeader</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAcknowledgeTaxDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeTaxDetail">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_e1Message" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1Message">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrderV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1MessageList</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderV2</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAddress" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAddress">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowHeaderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowHeaderV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowDates</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowDetailV2</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_glAccount" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_glAccount">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowHeader">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowDates</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_product" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_product">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_itemGroupSupplier</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrderV2_Input" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderV2_Input">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrderV2</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrdersForApprover_Input" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersForApprover_Input">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrdersForApprover</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrderEmployeeProfile" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrderEmployeeProfile">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrderV2_Output" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderV2_Output">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrderV2</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_glAccountKey" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_glAccountKey">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_e1MessageList" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1MessageList">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1Message</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderDeliveryDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDeliveryDetail">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrder" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrder">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetHeader</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_subledger" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_subledger">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrderEmployeeProfile_Input" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderEmployeeProfile_Input">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrderEmployeeProfile</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_reportingCodesPurchasing" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_reportingCodesPurchasing">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderDetail">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderFinancialDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_itemResponseSupplier</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderQuantity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderHeaderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderHeaderV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDatesHeader</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDeliveryHeaderV2</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderProcessing</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShipToAddressHeaderV2</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderSupplierAddressHeaderV2</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderTaxHeader</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShipToAddressHeaderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShipToAddressHeaderV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAddress</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderFinancialHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderFinancialHeader">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrdersForApproverResults" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrdersForApproverResults">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDetail">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDatesDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDeliveryDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderFinancialDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_originalOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_product</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_project</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_relatedOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_reportingCodesPurchasing</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderTaxDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_processPurchaseOrderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_processPurchaseOrderV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderHeaderV2</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_processPurchaseOrderAcknowledge" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_processPurchaseOrderAcknowledge">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeHeader</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_processing</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderGetDetailV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetDetailV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetDetailDates</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_itemGroupSupplier</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_originalOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetQuantity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_relatedOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrdersForApprover_Output" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersForApprover_Output">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrdersForApprover</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAcknowledgeDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeDetail">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_dates</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeFinancialDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_itemGroupSupplier</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeTaxDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAcknowledgeFinancialDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAcknowledgeFinancialDetail">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderAcknowledgeDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderAcknowledgeDetail">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderLineKey</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrdersCounts" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrdersCounts">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderDetailForApproverResults" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDetailForApproverResults">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrder_Output" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrder_Output">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrder</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderGetDetailDates" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetDetailDates">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderTaxHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderTaxHeader">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_processing" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_processing">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_processPurchaseOrder" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_processPurchaseOrder">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderHeader</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderKey" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderKey">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderSupplierAddressHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderSupplierAddressHeader">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAddress</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_itemGroupSupplier" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_itemGroupSupplier">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_getPurchaseOrderDetailForApprover_Input" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderDetailForApprover_Input">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrderDetailForApprover</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_processPurchaseOrderAcknowledge_Output" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderAcknowledge_Output">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderAcknowledge</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowDetail">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowDetailDates</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_glAccount</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_itemResponseSupplier</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_originalOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowQuantity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_relatedOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_reportingCodesPurchasing</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_subledger</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowDetailDates" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowDetailDates">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrder" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrder">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowHeader</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowHeaderV2</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderGetHeader" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetHeader">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetDates</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetDetail</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_getPurchaseOrderV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetHeaderV2</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderRemarksDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderRemarksDetail">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderGetDates" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetDates">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:BusinessServiceException" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.BusinessServiceException">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderFinancialDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderFinancialDetail">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderGetQuantity" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderGetQuantity">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_processPurchaseOrderApproveReject_Input" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderApproveReject_Input">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_processPurchaseOrderApproveReject</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_entity" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_dates" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_dates">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrdersCountsFields" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrdersCountsFields">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowDetailV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowDetailV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowDetailDates</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_glAccount</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_itemResponseSupplier</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_originalOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowQuantity</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_relatedOrderLineKey</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_reportingCodesPurchasing</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_subledger</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_userReservedData</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_processPurchaseOrderV2_Output" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderV2_Output">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrder</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:ProcurementManager_processPurchaseOrderAcknowledge_Input" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderAcknowledge_Input">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_processPurchaseOrderAcknowledge</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_project" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_project">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_originalOrderLineKey" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_originalOrderLineKey">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrdersCounts" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrdersCounts">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1MessageList</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrdersCountsFields</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrderDetailForApprover" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrderDetailForApprover">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1MessageList</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderDetailForApproverResults</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowDates" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderShowDates">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderSupplierAddressHeaderV2" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderSupplierAddressHeaderV2">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderAddress</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_entity</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderTaxDetail" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrderTaxDetail">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_itemResponseSupplier" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_itemResponseSupplier">
+<implementation.generic type="isdocumenttype"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrdersForApprover" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrdersForApprover">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1MessageList</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_purchaseOrdersForApproverResults</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderAcknowledge" name="BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderAcknowledge">
+<implementation.generic type="isdocumenttype"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_e1MessageList</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderAcknowledgeHeader</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:ProcurementManager_getPurchaseOrderV2_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrderV2_Response">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrderV2</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:ProcurementManager_getPurchaseOrderEmployeeProfile_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrderEmployeeProfile_Response">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrderEmployeeProfile</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:ProcurementManager_getPurchaseOrdersForApprover_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrdersForApprover_Response">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrdersForApprover</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:ProcurementManager_getPurchaseOrder_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrder_Response">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrder</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:ProcurementManager_processPurchaseOrderApproveReject_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_processPurchaseOrderApproveReject_Response">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderApproveReject</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:ProcurementManager_processPurchaseOrder_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_processPurchaseOrder_Response">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrder</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:ProcurementManager_getPurchaseOrderDetailForApprover_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrderDetailForApprover_Response">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrderDetailForApprover</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:genericFault_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.genericFault_Response">
+<implementation.generic type="isflowservice"/>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:ProcurementManager_processPurchaseOrderV2_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_processPurchaseOrderV2_Response">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrder</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:ProcurementManager_getPurchaseOrdersCounts_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrdersCounts_Response">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_showPurchaseOrdersCounts</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices:ProcurementManager_processPurchaseOrderAcknowledge_Response" name="BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_processPurchaseOrderAcknowledge_Response">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_confirmPurchaseOrderAcknowledge</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.docTypeRef_ns0_BusinessServiceException</dependsOn>
+</asset>
+<asset displayName="BstarTest.webServiceConnectors.consumers:procurementManager" name="BstarTest.webServiceConnectors.consumers.procurementManager">
+<implementation.generic type="iswsdconsumer"/>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrder_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrder_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.BusinessServiceException</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderAcknowledge_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderAcknowledge_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderV2_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderV2_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrder_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrder_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderV2_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderV2_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersForApprover_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersForApprover_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderDetailForApprover_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderDetailForApprover_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderEmployeeProfile_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrderEmployeeProfile_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersCounts_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_getPurchaseOrdersCounts_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderApproveReject_Input</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes.ProcurementManager_processPurchaseOrderApproveReject_Output</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrder</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrder_Response</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_processPurchaseOrderAcknowledge</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_processPurchaseOrderAcknowledge_Response</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrderV2</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrderV2_Response</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_processPurchaseOrder</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_processPurchaseOrder_Response</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_processPurchaseOrderV2</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_processPurchaseOrderV2_Response</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrdersForApprover</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrdersForApprover_Response</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrderDetailForApprover</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrderDetailForApprover_Response</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrderEmployeeProfile</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrderEmployeeProfile_Response</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_getPurchaseOrdersCounts</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_getPurchaseOrdersCounts_Response</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.connectors.ProcurementManager_processPurchaseOrderApproveReject</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.ProcurementManager_processPurchaseOrderApproveReject_Response</dependsOn>
+<dependsOn>IS:BstarTest.webServiceConnectors.consumers.procurementManager_.responseServices.genericFault_Response</dependsOn>
+</asset>
+<asset displayName="BstarTest.flowServices:processPurchaseOrder" name="BstarTest.flowServices.processPurchaseOrder">
+<implementation.generic type="isflowservice"/>
+<dependsOn>IS:BstarCanonical.CDM.PurchaseOrder.purchaseOrder</dependsOn>
+<dependsOn>IS:BstarTest.adpaterServices.selectPurchaseOrder</dependsOn>
+</asset>
+<asset displayName="BstarTest.adpaterServices:selectPurchaseOrder" name="BstarTest.adpaterServices.selectPurchaseOrder">
+<implementation.generic type="artservice"/>
+<dependsOn>IS:BstarTest.connections.BstarJDBCConnection</dependsOn>
+</asset>
+<asset displayName="BstarTest.connections:BstarJDBCConnection" name="BstarTest.connections.BstarJDBCConnection">
+<implementation.generic type="artconnection"/>
+<property displayName="State After Deployment" many="false" name="art.deployment.state">
+<value>disable</value>
+</property>
+<property many="false" name="transactionType">
+<value>LOCAL_TRANSACTION</value>
+</property>
+<property many="false" name="datasourceClass">
+<value>oracle.jdbc.pool.OracleDataSource</value>
+</property>
+<property many="false" name="serverName">
+<value>f2-apac-eai-wm.c6hjaqr7d297.ap-southeast-2.rds.amazonaws.com</value>
+</property>
+<property many="false" name="user">
+<value>WMAPP</value>
+</property>
+<property isSecure="true" many="false" name="password">
+<value>{AES}aYrXC43dTWsDUHRWG5mhTA==</value>
+</property>
+<property many="false" name="databaseName">
+<value>APACWMDB</value>
+</property>
+<property many="false" name="portNumber">
+<value>1521</value>
+</property>
+<property many="false" name="networkProtocol">
+<value>tcp</value>
+</property>
+<property many="false" name="otherProperties">
+<value>driverType=thin</value>
+</property>
+<property displayName="poolable" many="false" name=".CMGRPROP.poolable">
+<value>true</value>
+</property>
+<property displayName="minimumPoolSize" many="false" name=".CMGRPROP.minimumPoolSize">
+<value>0</value>
+</property>
+<property displayName="maximumPoolSize" many="false" name=".CMGRPROP.maximumPoolSize">
+<value>10</value>
+</property>
+<property displayName="poolIncrementSize" many="false" name=".CMGRPROP.poolIncrementSize">
+<value>1</value>
+</property>
+<property displayName="blockingTimeout" many="false" name=".CMGRPROP.blockingTimeout">
+<value>1000</value>
+</property>
+<property displayName="expireTimeout" many="false" name=".CMGRPROP.expireTimeout">
+<value>1000</value>
+</property>
+<property displayName="startupRetryCount" many="false" name=".CMGRPROP.startupRetryCount">
+<value>0</value>
+</property>
+<property displayName="startupBackoffSecs" many="false" name=".CMGRPROP.startupBackoffSecs">
+<value>10</value>
+</property>
+</asset>
+<asset displayName="BstarTest.trigger:subscribePO" name="BstarTest.trigger.subscribePO">
+<implementation.generic type="istrigger"/>
+<dependsOn>IS:BstarTest.flowServices.processPurchaseOrder</dependsOn>
+<dependsOn>IS:BstarCanonical.CDM.PurchaseOrder.purchaseOrder</dependsOn>
+</asset>
+<asset displayName="pub" name="BstarTest.pub">
+<implementation.generic type="isfolder"/>
+</asset>
+</asset_composite>

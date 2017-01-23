@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="2" type="Simulate">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-01-17 18:30:41 IST</startTime>
+<projectName>Repo_Based</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-17 18:30:41 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1168] Deleted previously delivered artifacts successfully for IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 18:30:42 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1164] Artifacts delivered successfully to IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 18:30:42 IST" type="MESSAGE">
+<messagebody>Composite type ispackage does not support simulation.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+<asset name="BstarBPM" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 18:30:43 IST" type="ERROR">
+<messagebody>[DEP.0005.0304] Target Server Pra_machine is unavailable.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-17 18:30:43 IST</endTime>
+</Report>

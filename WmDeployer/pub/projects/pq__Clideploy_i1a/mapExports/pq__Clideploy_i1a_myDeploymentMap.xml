@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><DeploymentMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" description="" mapName="myDeploymentMap" projectType="Runtime">
+  <DeploymentSets>
+    <DeploymentSet name="myDeploymentSet" pluginType="IS">
+      <targetServers>
+        <targetServer alias="Bibin_remote" type="IS"/>
+      </targetServers>
+    </DeploymentSet>
+  </DeploymentSets>
+</DeploymentMap>

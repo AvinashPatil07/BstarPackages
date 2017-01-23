@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="2" type="Simulate">
+<depCandidate>myDeploymentnew</depCandidate>
+<depMapName>myDeploymentMap1</depMapName>
+<buildName>myBuild</buildName>
+<projectDescription/>
+<startTime>2017-01-13 12:56:47 IST</startTime>
+<projectName>Deployer_CLI</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-13 12:56:49 IST" type="ERROR">
+<messagebody>[DEP.0005.0304] Target Server Bibin_remote is unavailable.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet1" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="" type=""/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-13 12:56:49 IST</endTime>
+</Report>

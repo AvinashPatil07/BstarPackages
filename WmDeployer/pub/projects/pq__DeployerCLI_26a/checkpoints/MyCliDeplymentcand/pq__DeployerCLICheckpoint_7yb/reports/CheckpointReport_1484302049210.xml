@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Checkpoint">
+<depCandidate>MyCliDeplymentcand</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<buildName>MyCliBuild</buildName>
+<checkpointName>Deployer_CLICheckpoint</checkpointName>
+<projectDescription/>
+<startTime>Fri Jan 13 15:37:29 IST 2017</startTime>
+<projectName>Deployer_CLI</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-13 15:37:29 IST" type="MISSING">
+<messagebody>[DEP.0001.0100] Added IS package "BstarTest" to the missing list</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="siva_machine"/>
+<asset name="Deployer_CLI_Deployer_CLICheckpoint_1484302049402" type="Package"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-13 15:37:29 IST</endTime>
+</Report>

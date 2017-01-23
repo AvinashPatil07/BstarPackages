@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.project.Project" id="Project0">
+  <void property="bundles">
+   <void method="add">
+    <object class="com.wm.deployer.project.Bundle" id="Bundle0">
+     <void property="name">
+      <string>myDeploymentSet1</string>
+     </void>
+     <void property="project">
+      <object idref="Project0"/>
+     </void>
+     <void property="sourceSystems">
+      <void method="add">
+       <object class="com.wm.deployer.project.is.ISSourceSystem" id="ISSourceSystem0">
+        <void property="acls">
+         <void method="add">
+          <object class="com.wm.deployer.project.is.ISACL">
+           <void property="name">
+            <string>Anonymous</string>
+           </void>
+           <void property="sourceSystem">
+            <object idref="ISSourceSystem0"/>
+           </void>
+           <void property="version">
+            <string>4.0</string>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="com.wm.deployer.project.is.ISACL">
+           <void property="name">
+            <string>Default</string>
+           </void>
+           <void property="sourceSystem">
+            <object idref="ISSourceSystem0"/>
+           </void>
+           <void property="version">
+            <string>4.0</string>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="com.wm.deployer.project.is.ISACL">
+           <void property="name">
+            <string>Internal</string>
+           </void>
+           <void property="sourceSystem">
+            <object idref="ISSourceSystem0"/>
+           </void>
+           <void property="version">
+            <string>4.0</string>
+           </void>
+          </object>
+         </void>
+        </void>
+        <void property="bundle">
+         <object idref="Bundle0"/>
+        </void>
+        <void property="name">
+         <string>Bibin_remote</string>
+        </void>
+        <void property="packages">
+         <void method="add">
+          <object class="com.wm.deployer.project.is.ISPackage">
+           <void property="activateOnInstall">
+            <boolean>true</boolean>
+           </void>
+           <void property="archiveName">
+            <string>Acme</string>
+           </void>
+           <void property="buildNumber">
+            <string></string>
+           </void>
+           <void property="description">
+            <string>Local_Project_Local_Deplyoment</string>
+           </void>
+           <void property="name">
+            <string>Acme</string>
+           </void>
+           <void property="pkgVersion">
+            <string>1.0</string>
+           </void>
+           <void property="previousPatchesIncluded">
+            <string></string>
+           </void>
+           <void property="refreshPropertiesDuringBuild">
+            <boolean>true</boolean>
+           </void>
+           <void property="requiredISVersion">
+            <string>9.12.0.0</string>
+           </void>
+           <void property="requiredJVMVersion">
+            <string>1.8.0_101</string>
+           </void>
+           <void property="requiredTargetPackageVersion">
+            <string>1.0</string>
+           </void>
+           <void property="sourceSystem">
+            <object idref="ISSourceSystem0"/>
+           </void>
+           <void property="synchronizeDocuments">
+            <boolean>true</boolean>
+           </void>
+           <void property="version">
+            <string>4.0</string>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="com.wm.deployer.project.is.ISPackage">
+           <void property="activateOnInstall">
+            <boolean>true</boolean>
+           </void>
+           <void property="archiveName">
+            <string>BstarCanonical</string>
+           </void>
+           <void property="name">
+            <string>BstarCanonical</string>
+           </void>
+           <void property="pkgVersion">
+            <string>1.0</string>
+           </void>
+           <void property="refreshPropertiesDuringBuild">
+            <boolean>true</boolean>
+           </void>
+           <void property="requiredISVersion">
+            <string>9.12.0.0</string>
+           </void>
+           <void property="requiredJVMVersion">
+            <string>1.8.0_101</string>
+           </void>
+           <void property="requiredTargetPackageVersion">
+            <string>1.0</string>
+           </void>
+           <void property="sourceSystem">
+            <object idref="ISSourceSystem0"/>
+           </void>
+           <void property="synchronizeDocuments">
+            <boolean>true</boolean>
+           </void>
+           <void property="version">
+            <string>4.0</string>
+           </void>
+          </object>
+         </void>
+        </void>
+        <void property="version">
+         <string>4.0</string>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="version">
+      <string>4.0</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="deployTNRules">
+   <string>MERGE</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="name">
+   <string>Deployer_CLI</string>
+  </void>
+  <void property="version">
+   <string>4.0</string>
+  </void>
+ </object>
+</java>

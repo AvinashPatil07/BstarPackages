@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Build">
+<buildName>myBuild</buildName>
+<projectDescription/>
+<buildDesc/>
+<startTime>Mon Jan 23 15:44:22 IST 2017</startTime>
+<projectName>Remote_Server</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-23 15:44:22 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0051] Extracted IS package "BstarBPM"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="Remote_Server_myBuild_1485166462364" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-23 15:44:23 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0052] Extracted IS package "BstarBPM" node ACLs</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="packageName" type="PackageNodeACL"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-23 15:44:23 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0048] Extracted IS ACL "Anonymous"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="Anonymous" type="ACLGroup"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-23 15:44:23 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0048] Extracted IS ACL "Default"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="Default" type="ACLGroup"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-23 15:44:23 IST</endTime>
+</Report>

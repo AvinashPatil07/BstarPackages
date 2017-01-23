@@ -1,0 +1,16 @@
+2017-01-13 15:37:59 IST Initiating the Progress Report for Deploy operation.
+2017-01-13 15:37:59 IST Starting deployment of MyCliDeplymentcand
+2017-01-13 15:38:00 IST Processing deployment set myDeploymentSet
+2017-01-13 15:38:00 IST Processing deployment to target server siva_machine
+2017-01-13 15:38:01 IST Initiating Deploy operation on package BstarTest (target server : siva_machine)
+2017-01-13 15:38:27 IST Done with the Deploy operation on package BstarTest (target server : siva_machine)
+2017-01-13 15:38:29 IST Initiating resume triggers operation (target server : siva_machine)
+2017-01-13 15:38:29 IST Done with the resume triggers operation (target server : siva_machine)
+2017-01-13 15:38:29 IST Initiating resume adapter notifications operation (target server : siva_machine)
+2017-01-13 15:38:29 IST Done with the resume adapter notifications operation (target server : siva_machine)
+2017-01-13 15:38:29 IST Initiating Deploy operation on node ACLs (target server : siva_machine)
+2017-01-13 15:38:41 IST Done with the Deploy operation on node ACLs (target server : siva_machine)
+2017-01-13 15:38:41 IST Completed processing deployment to target server siva_machine
+2017-01-13 15:38:41 IST Completed processing deployment set myDeploymentSet
+2017-01-13 15:38:41 IST Completed deployment of MyCliDeplymentcand
+2017-01-13 15:38:41 IST Completed generating Progress Report for the Deploy operation.

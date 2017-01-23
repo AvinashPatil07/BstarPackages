@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="0" type="Deploy">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-01-17 17:30:36 IST</startTime>
+<projectName>Repo_Based</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-17 17:30:36 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1168] Deleted previously delivered artifacts successfully for IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 17:31:00 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1168] Deleted previously delivered artifacts successfully for IS.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 17:31:00 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1164] Artifacts delivered successfully to IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 17:31:36 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1164] Artifacts delivered successfully to IS.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 17:31:38 IST" type="SUCCESS">
+<messagebody>BstarBPM package installed and activated. The original package has been moved to package recovery area. Package has been moved to archive area as BstarBPM.zip_20170117173138.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+<asset name="BstarBPM" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 17:31:55 IST" type="SUCCESS">
+<messagebody>BstarBPM package installed and activated. The original package has been moved to package recovery area. Package has been moved to archive area as BstarBPM.zip_20170117173155.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="BstarBPM" type="ispackage"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-17 17:32:12 IST</endTime>
+</Report>

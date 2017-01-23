@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="1" type="Deploy">
+<depCandidate>MyCliDeplymentcand</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<buildName>MyCliBuild</buildName>
+<projectDescription/>
+<startTime>2017-01-13 15:37:59 IST</startTime>
+<projectName>Deployer_CLI</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-13 15:38:01 IST" type="WARNING">
+<messagebody>[DEP.0005.0248] The following target dependency(ies) was ignored: 
+"Anonymous, Default, BstarCanonical.CDM.PurchaseOrder:purchaseOrder, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderDatesDetail, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAcknowledgeFinancial, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderFinancialDetail, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrdersCounts, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_glAccount, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_reportingCodesPurchasing, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderProcessing, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowQuantity, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAddress, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_relatedOrderLineKey, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_processing, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderApproveReject, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderKey, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderGetDetailDates, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowDetailDates, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderFinancialHeader, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderAcknowledge, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAcknowledgeTaxDetail, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_project, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrder, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_itemResponseSupplier, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrderEmployeeProfile, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrderDetailForApprover, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrdersForApprover, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderTaxHeader, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_glAccountKey, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderDatesHeader, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderRemarksDetail, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_processPurchaseOrderV2, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderLineKey, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAcknowledgeFinancialDetail, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderTaxDetail, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrderV2, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_processPurchaseOrder, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrderQuantity, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_processPurchaseOrderApproveReject, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_userReservedData, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrderV2, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrderEmployeeProfile, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderGetQuantity, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderGetDates, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_itemGroupSupplier, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderAcknowledgeTax, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_dates, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrdersCountsFields, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_purchaseOrderShowDates, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_entity, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrdersForApprover, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_subledger, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrder, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_getPurchaseOrdersCounts, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_originalOrderLineKey, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_showPurchaseOrderDetailForApprover, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_confirmPurchaseOrder, BstarJDE.PurchaseOrder.Target.pub.consumer.procurementManager.procurementManager_.docTypes:docTypeRef_ns0_processPurchaseOrderAcknowledge'."</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="siva_machine"/>
+<asset name="" type=""/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 15:38:27 IST" type="ADD">
+<messagebody>[DEP.0005.0159] The Package: "BstarTest", has been put into the inbound directory.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="siva_machine"/>
+<asset name="BstarTest" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 15:38:27 IST" type="ADD">
+<messagebody>BstarTest package installed but not activated.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="siva_machine"/>
+<asset name="BstarTest" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 15:38:29 IST" type="UPDATE">
+<messagebody>BstarTest package activated.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="siva_machine"/>
+<asset name="package" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 15:38:29 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1236] There is no UM connected to target: "siva_machine".  Thus, any Publishable Document Types cannot be synchronized.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="siva_machine"/>
+<asset name="" type="Package"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-13 15:38:41 IST</endTime>
+</Report>

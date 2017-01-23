@@ -1,0 +1,16 @@
+2017-01-17 12:37:34 IST Initiating the Progress Report for Deploy operation.
+2017-01-17 12:37:34 IST Starting deployment of myDeployment
+2017-01-17 12:37:34 IST Processing deployment set myDeploymentSet
+2017-01-17 12:37:34 IST Processing deployment to target server Bibin_remote
+2017-01-17 12:37:34 IST Initiating Deploy operation on package BstarCanonical (target server : Bibin_remote)
+2017-01-17 12:38:01 IST Done with the Deploy operation on package BstarCanonical (target server : Bibin_remote)
+2017-01-17 12:38:16 IST Initiating resume triggers operation (target server : Bibin_remote)
+2017-01-17 12:38:16 IST Done with the resume triggers operation (target server : Bibin_remote)
+2017-01-17 12:38:16 IST Initiating resume adapter notifications operation (target server : Bibin_remote)
+2017-01-17 12:38:16 IST Done with the resume adapter notifications operation (target server : Bibin_remote)
+2017-01-17 12:38:16 IST Initiating Deploy operation on node ACLs (target server : Bibin_remote)
+2017-01-17 12:39:48 IST Done with the Deploy operation on node ACLs (target server : Bibin_remote)
+2017-01-17 12:39:48 IST Completed processing deployment to target server Bibin_remote
+2017-01-17 12:39:48 IST Completed processing deployment set myDeploymentSet
+2017-01-17 12:39:48 IST Completed deployment of myDeployment
+2017-01-17 12:39:48 IST Completed generating Progress Report for the Deploy operation.

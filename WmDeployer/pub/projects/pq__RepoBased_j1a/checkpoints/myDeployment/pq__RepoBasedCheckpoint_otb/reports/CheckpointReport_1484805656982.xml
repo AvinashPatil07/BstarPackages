@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="0" type="Checkpoint">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-01-19 11:30:56 IST</startTime>
+<projectName>Repo_Based</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-19 11:30:57 IST" type="MESSAGE">
+<messagebody>[DEP.0008.0021] Successfully deleted checkpoints for IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-19 11:30:58 IST" type="MESSAGE">
+<messagebody>Asset BstarBPM exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+<asset name="BstarBPM" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-19 11:30:58 IST" type="MESSAGE">
+<messagebody>Created ACDL file for the composite BstarBPM.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+<asset name="BstarBPM" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-19 11:30:58 IST" type="MESSAGE">
+<messagebody>Created binary file for the composite BstarBPM.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+<asset name="BstarBPM" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-19 11:30:58 IST" type="MESSAGE">
+<messagebody>Persisted assets for checkpoint ID adc63e80-554a-4839-85f3-fa36375e9323.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+<asset name="" type=""/>
+</attributes>
+</message>
+<message timeStamp="2017-01-19 11:30:58 IST" type="SUCCESS">
+<messagebody>Successfully created checkpoint for the checkpoint ID adc63e80-554a-4839-85f3-fa36375e9323.</messagebody>
+<attributes>
+<targetserver name="Bibin_remote"/>
+<asset name="" type=""/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-19 11:30:58 IST</endTime>
+</Report>

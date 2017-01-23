@@ -1,0 +1,9 @@
+2017-01-17 12:35:48 IST Initiating Progress Report for the Build operation
+2017-01-17 12:35:48 IST Starting deployer build for project Cli_deploy
+2017-01-17 12:35:49 IST  Processing deployment set myDeploymentSet
+2017-01-17 12:35:49 IST Processing IS source server Local
+2017-01-17 12:35:49 IST Initiating add operation on package BstarCanonical to the build
+2017-01-17 12:36:15 IST Done with the add operation on package BstarCanonical to the build
+2017-01-17 12:36:15 IST Completed processing IS source server Local
+2017-01-17 12:36:15 IST Completed Processing Of deployment set myDeploymentSet
+2017-01-17 12:36:16 IST Completed generating Progress Report for the Build operation.

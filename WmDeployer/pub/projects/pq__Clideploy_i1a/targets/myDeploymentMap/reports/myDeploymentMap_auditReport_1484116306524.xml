@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="1" type="Deploy">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<buildName>myBuild</buildName>
+<projectDescription/>
+<startTime>2017-01-11 12:01:46 IST</startTime>
+<projectName>Cli_deploy</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-11 12:01:47 IST" type="WARNING">
+<messagebody>[DEP.0005.0248] The following target dependency(ies) was ignored: 
+"Anonymous, Default'."</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="" type=""/>
+</attributes>
+</message>
+<message timeStamp="2017-01-11 12:02:02 IST" type="UPDATE">
+<messagebody>[DEP.0005.0159] The Package: "BstarCanonical", has been put into the inbound directory.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="BstarCanonical" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-11 12:02:52 IST" type="UPDATE">
+<messagebody>BstarCanonical package installed and not activated. The original package has been moved to package recovery area.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="BstarCanonical" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-11 12:03:12 IST" type="UPDATE">
+<messagebody>BstarCanonical package activated.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="package" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-11 12:03:12 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1236] There is no UM connected to target: "Bibin_remote".  Thus, any Publishable Document Types cannot be synchronized.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="" type="Package"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-11 12:04:58 IST</endTime>
+</Report>

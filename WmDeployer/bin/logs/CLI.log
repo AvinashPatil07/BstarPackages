@@ -1,0 +1,1856 @@
+[DEBUG] [11 Jan 2017 16:46:57,366] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 16:46:57,366] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:46:57,366] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:46:57,382] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 16:46:57,382] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 16:46:57,398] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 16:46:57,398] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = import
+
+[DEBUG] [11 Jan 2017 16:46:57,398] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 16:46:57,398] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[DEBUG] [11 Jan 2017 16:46:57,398] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:46:57,413] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 16:46:57,413] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 16:46:57,429] (ParseDeployerParams.java:parse:1770)
+[5.59 - -700][DEP.0100.-700] Invalid Command line parameters
+
+[ INFO] [11 Jan 2017 16:48:14,034] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 16:48:14,063] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[DEBUG] [11 Jan 2017 16:48:14,074] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:48:14,079] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 16:48:14,084] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:48:14,090] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:48:14,100] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 16:48:14,106] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 16:48:14,109] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 16:48:14,112] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = list
+
+[DEBUG] [11 Jan 2017 16:48:14,116] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 16:48:14,119] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[ INFO] [11 Jan 2017 16:48:14,124] (ParseDeployerParams.java:validateCommandLineParametersForAction:3146)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.33] List mapFile
+
+[DEBUG] [11 Jan 2017 16:48:14,128] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:48:14,142] (DeployerServiceUtils.java:listAction:142)
+[Deployer] Entering listAction(HashMap paramMap) Method
+
+[DEBUG] [11 Jan 2017 16:48:14,146] (DeployerServiceUtils.java:listAction:146)
+[Deployer] Invoking Service wm.deployer.gui.UITarget.listFilesInReplicateInBound on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 16:48:14,154] (DeployerServiceUtils.java:listAction:152)
+[Deployer] Service invoked by User Administrator
+
+[DEBUG] [11 Jan 2017 16:48:14,157] (DeployerServiceUtils.java:listAction:154)
+[Deployer] Parameters to the service 
+
+[DEBUG] [11 Jan 2017 16:48:14,168] (DeployerServiceUtils.java:listAction:166)
+[Deployer] 	fileType = map
+
+[DEBUG] [11 Jan 2017 16:48:14,172] (DeployerServiceUtils.java:executeService:1484)
+[Deployer] Entering executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [11 Jan 2017 16:48:14,789] (DeployerServiceUtils.java:executeService:1535)
+[Deployer] Initiating connection Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 16:48:14,899] (DeployerServiceUtils.java:executeService:1537)
+[Deployer] Connection Established Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 16:48:14,904] (DeployerServiceUtils.java:executeService:1539)
+[Deployer] Executing Service wm.deployer.gui.UITarget:listFilesInReplicateInBound Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 16:48:14,924] (DeployerServiceUtils.java:executeService:1541)
+[Deployer] Completed Executing Service wm.deployer.gui.UITarget:listFilesInReplicateInBound Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 16:48:14,934] (DeployerServiceUtils.java:executeService:1577)
+[Deployer] Exiting executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [11 Jan 2017 16:48:14,944] (DeployerServiceUtils.java:listAction:212)
+[Deployer Service Status] Message = null
+
+[DEBUG] [11 Jan 2017 16:48:14,949] (DeployerServiceUtils.java:listAction:200)
+[Deployer Service Status] Service returned with status success
+
+[DEBUG] [11 Jan 2017 16:48:14,954] (DeployerServiceUtils.java:listAction:279)
+[Deployer] Exiting listAction(HashMap paramMap) Method
+
+[DEBUG] [11 Jan 2017 16:48:14,960] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 16:48:14,967] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 16:48:14,975] (ParseDeployerParams.java:parse:1192)
+[[DEP.0100.4.00] Success0]
+
+[ INFO] [11 Jan 2017 16:49:10,944] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 16:49:10,974] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [11 Jan 2017 16:49:10,986] (ParseDeployerParams.java:parse:1736)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.51] Import
+
+[DEBUG] [11 Jan 2017 16:49:10,989] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:49:10,996] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 16:49:11,000] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:49:11,004] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:49:11,016] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 16:49:11,021] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 16:49:11,024] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 16:49:11,027] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = import
+
+[DEBUG] [11 Jan 2017 16:49:11,031] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 16:49:11,035] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[DEBUG] [11 Jan 2017 16:49:11,038] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:49:11,043] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 16:49:11,050] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 16:49:11,058] (ParseDeployerParams.java:parse:1770)
+[5.59 - -700][DEP.0100.-700] Invalid Command line parameters
+
+[ INFO] [11 Jan 2017 16:54:52,279] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 16:54:52,320] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [11 Jan 2017 16:54:52,331] (ParseDeployerParams.java:parse:1680)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.52] Export
+
+[DEBUG] [11 Jan 2017 16:54:52,335] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:54:52,345] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 16:54:52,351] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:54:52,356] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:54:52,368] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 16:54:52,375] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 16:54:52,380] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 16:54:52,384] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = export
+
+[DEBUG] [11 Jan 2017 16:54:52,388] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 16:54:52,392] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[ INFO] [11 Jan 2017 16:54:52,397] (ParseDeployerParams.java:validateCommandLineParametersForAction:3683)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.15] Export Build
+
+[ INFO] [11 Jan 2017 16:54:52,402] (ParseDeployerParams.java:validateCommandLineParametersForAction:3836)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.16] Export Map
+
+[DEBUG] [11 Jan 2017 16:54:52,408] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:54:52,425] (DeployerServiceUtils.java:exportAction:490)
+[Deployer] Entering exportAction(HashMap paramMap) Method
+
+[DEBUG] [11 Jan 2017 16:54:52,430] (DeployerServiceUtils.java:exportAction:493)
+[Deployer] Invoking Service wm.deployer.gui.UITarget.exportMap on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 16:54:52,436] (DeployerServiceUtils.java:exportAction:499)
+[Deployer] Service invoked by User Administrator
+
+[DEBUG] [11 Jan 2017 16:54:52,441] (DeployerServiceUtils.java:exportAction:501)
+[Deployer] Parameters to the service 
+
+[DEBUG] [11 Jan 2017 16:54:52,456] (DeployerServiceUtils.java:exportAction:513)
+[Deployer] 	mapSetName = myDeploymentMap
+
+[DEBUG] [11 Jan 2017 16:54:52,461] (DeployerServiceUtils.java:exportAction:513)
+[Deployer] 	projectName = Cli_deploy
+
+[DEBUG] [11 Jan 2017 16:54:52,465] (DeployerServiceUtils.java:executeService:1484)
+[Deployer] Entering executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [11 Jan 2017 16:54:53,222] (DeployerServiceUtils.java:executeService:1535)
+[Deployer] Initiating connection Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 16:54:53,352] (DeployerServiceUtils.java:executeService:1537)
+[Deployer] Connection Established Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 16:54:53,356] (DeployerServiceUtils.java:executeService:1539)
+[Deployer] Executing Service wm.deployer.gui.UITarget:exportMap Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 16:54:53,416] (DeployerServiceUtils.java:executeService:1541)
+[Deployer] Completed Executing Service wm.deployer.gui.UITarget:exportMap Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 16:54:53,426] (DeployerServiceUtils.java:executeService:1577)
+[Deployer] Exiting executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [11 Jan 2017 16:54:53,434] (DeployerServiceUtils.java:exportAction:533)
+[Deployer Service Status] Stature returned with status success
+
+[DEBUG] [11 Jan 2017 16:54:53,438] (DeployerServiceUtils.java:exportAction:547)
+[Deployer Service Status] Message = [DEP.0002.0115] Successfully exported map to C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\replicate\outbound\Cli_deploy_myDeploymentMap.map
+
+[DEBUG] [11 Jan 2017 16:54:53,448] (DeployerServiceUtils.java:exportAction:558)
+[Deployer] Exiting exportAction(HashMap paramMap) Method
+
+[DEBUG] [11 Jan 2017 16:54:53,453] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 16:54:53,463] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 16:54:53,468] (ParseDeployerParams.java:parse:1701)
+[[DEP.0100.4.00] Success0] [DEP.0002.0115] Successfully exported map to C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\replicate\outbound\Cli_deploy_myDeploymentMap.map. [DEP.0100.5.44] Export operation successfully completed.
+The Exported file will be placed in <IS>/packages/WmDeployer/replicate/outbound folder
+
+[ INFO] [11 Jan 2017 16:58:34,414] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 16:58:34,443] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [11 Jan 2017 16:58:34,452] (ParseDeployerParams.java:parse:1736)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.51] Import
+
+[DEBUG] [11 Jan 2017 16:58:34,455] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:58:34,462] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 16:58:34,465] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:58:34,471] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:58:34,482] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 16:58:34,488] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 16:58:34,491] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 16:58:34,494] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = import
+
+[DEBUG] [11 Jan 2017 16:58:34,497] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 16:58:34,501] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[DEBUG] [11 Jan 2017 16:58:34,505] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:58:34,510] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 16:58:34,516] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 16:58:34,526] (ParseDeployerParams.java:parse:1770)
+[5.59 - -700][DEP.0100.-700] Invalid Command line parameters
+
+[ INFO] [11 Jan 2017 16:58:52,610] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 16:58:52,642] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [11 Jan 2017 16:58:52,650] (ParseDeployerParams.java:parse:1736)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.51] Import
+
+[DEBUG] [11 Jan 2017 16:58:52,654] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:58:52,662] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 16:58:52,666] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:58:52,670] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:58:52,682] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 16:58:52,686] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 16:58:52,690] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 16:58:52,694] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = import
+
+[DEBUG] [11 Jan 2017 16:58:52,698] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 16:58:52,702] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[DEBUG] [11 Jan 2017 16:58:52,706] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:58:52,710] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 16:58:52,718] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 16:58:52,722] (ParseDeployerParams.java:parse:1770)
+[5.59 - -700][DEP.0100.-700] Invalid Command line parameters
+
+[ INFO] [11 Jan 2017 16:59:20,322] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 16:59:20,353] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [11 Jan 2017 16:59:20,364] (ParseDeployerParams.java:parse:1736)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.51] Import
+
+[DEBUG] [11 Jan 2017 16:59:20,367] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:59:20,374] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 16:59:20,379] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:59:20,383] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 16:59:20,395] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 16:59:20,400] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 16:59:20,403] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 16:59:20,406] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = import
+
+[DEBUG] [11 Jan 2017 16:59:20,411] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 16:59:20,415] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[DEBUG] [11 Jan 2017 16:59:20,418] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 16:59:20,423] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 16:59:20,430] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 16:59:20,437] (ParseDeployerParams.java:parse:1770)
+[5.59 - -700][DEP.0100.-700] Invalid Command line parameters
+
+[ INFO] [11 Jan 2017 17:41:25,800] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 17:41:25,832] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [11 Jan 2017 17:41:25,841] (ParseDeployerParams.java:parse:1680)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.52] Export
+
+[DEBUG] [11 Jan 2017 17:41:25,844] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 17:41:25,850] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 17:41:25,853] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 17:41:25,856] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 17:41:25,866] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 17:41:25,870] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 17:41:25,872] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 17:41:25,876] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = export
+
+[DEBUG] [11 Jan 2017 17:41:25,879] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 17:41:25,883] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[ INFO] [11 Jan 2017 17:41:25,888] (ParseDeployerParams.java:validateCommandLineParametersForAction:3683)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.15] Export Build
+
+[ INFO] [11 Jan 2017 17:41:25,892] (ParseDeployerParams.java:validateCommandLineParametersForAction:3836)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.16] Export Map
+
+[DEBUG] [11 Jan 2017 17:41:25,896] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 17:41:25,910] (DeployerServiceUtils.java:exportAction:490)
+[Deployer] Entering exportAction(HashMap paramMap) Method
+
+[DEBUG] [11 Jan 2017 17:41:25,914] (DeployerServiceUtils.java:exportAction:493)
+[Deployer] Invoking Service wm.deployer.gui.UITarget.exportMap on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 17:41:25,920] (DeployerServiceUtils.java:exportAction:499)
+[Deployer] Service invoked by User Administrator
+
+[DEBUG] [11 Jan 2017 17:41:25,924] (DeployerServiceUtils.java:exportAction:501)
+[Deployer] Parameters to the service 
+
+[DEBUG] [11 Jan 2017 17:41:25,938] (DeployerServiceUtils.java:exportAction:513)
+[Deployer] 	mapSetName = myDeploymentMap
+
+[DEBUG] [11 Jan 2017 17:41:25,941] (DeployerServiceUtils.java:exportAction:513)
+[Deployer] 	projectName = Cli_deploy
+
+[DEBUG] [11 Jan 2017 17:41:25,946] (DeployerServiceUtils.java:executeService:1484)
+[Deployer] Entering executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [11 Jan 2017 17:41:26,534] (DeployerServiceUtils.java:executeService:1535)
+[Deployer] Initiating connection Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 17:41:26,868] (DeployerServiceUtils.java:executeService:1537)
+[Deployer] Connection Established Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 17:41:26,873] (DeployerServiceUtils.java:executeService:1539)
+[Deployer] Executing Service wm.deployer.gui.UITarget:exportMap Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 17:41:27,328] (DeployerServiceUtils.java:executeService:1541)
+[Deployer] Completed Executing Service wm.deployer.gui.UITarget:exportMap Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 17:41:27,336] (DeployerServiceUtils.java:executeService:1577)
+[Deployer] Exiting executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [11 Jan 2017 17:41:27,343] (DeployerServiceUtils.java:exportAction:533)
+[Deployer Service Status] Stature returned with status success
+
+[DEBUG] [11 Jan 2017 17:41:27,347] (DeployerServiceUtils.java:exportAction:547)
+[Deployer Service Status] Message = [DEP.0002.0115] Successfully exported map to C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\replicate\outbound\Cli_deploy_myDeploymentMap.map
+
+[DEBUG] [11 Jan 2017 17:41:27,357] (DeployerServiceUtils.java:exportAction:558)
+[Deployer] Exiting exportAction(HashMap paramMap) Method
+
+[DEBUG] [11 Jan 2017 17:41:27,362] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 17:41:27,371] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 17:41:27,377] (ParseDeployerParams.java:parse:1701)
+[[DEP.0100.4.00] Success0] [DEP.0002.0115] Successfully exported map to C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\replicate\outbound\Cli_deploy_myDeploymentMap.map. [DEP.0100.5.44] Export operation successfully completed.
+The Exported file will be placed in <IS>/packages/WmDeployer/replicate/outbound folder
+
+[ INFO] [11 Jan 2017 17:45:31,617] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 17:45:31,648] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [11 Jan 2017 17:45:31,648] (ParseDeployerParams.java:parse:1736)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.51] Import
+
+[DEBUG] [11 Jan 2017 17:45:31,664] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 17:45:31,664] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 17:45:31,664] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 17:45:31,664] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 17:45:31,679] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 17:45:31,679] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 17:45:31,679] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 17:45:31,695] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = import
+
+[DEBUG] [11 Jan 2017 17:45:31,695] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 17:45:31,695] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[DEBUG] [11 Jan 2017 17:45:31,695] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 17:45:31,710] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 17:45:31,710] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 17:45:31,710] (ParseDeployerParams.java:parse:1770)
+[5.59 - -700][DEP.0100.-700] Invalid Command line parameters
+
+[ INFO] [11 Jan 2017 17:46:29,682] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 17:46:29,710] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[DEBUG] [11 Jan 2017 17:46:29,720] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 17:46:29,724] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 17:46:29,729] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 17:46:29,733] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 17:46:29,742] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 17:46:29,747] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 17:46:29,749] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 17:46:29,752] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = list
+
+[DEBUG] [11 Jan 2017 17:46:29,755] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 17:46:29,759] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[ INFO] [11 Jan 2017 17:46:29,762] (ParseDeployerParams.java:validateCommandLineParametersForAction:3146)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.33] List mapFile
+
+[DEBUG] [11 Jan 2017 17:46:29,767] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 17:46:29,778] (DeployerServiceUtils.java:listAction:142)
+[Deployer] Entering listAction(HashMap paramMap) Method
+
+[DEBUG] [11 Jan 2017 17:46:29,782] (DeployerServiceUtils.java:listAction:146)
+[Deployer] Invoking Service wm.deployer.gui.UITarget.listFilesInReplicateInBound on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 17:46:29,789] (DeployerServiceUtils.java:listAction:152)
+[Deployer] Service invoked by User Administrator
+
+[DEBUG] [11 Jan 2017 17:46:29,792] (DeployerServiceUtils.java:listAction:154)
+[Deployer] Parameters to the service 
+
+[DEBUG] [11 Jan 2017 17:46:29,806] (DeployerServiceUtils.java:listAction:166)
+[Deployer] 	fileType = map
+
+[DEBUG] [11 Jan 2017 17:46:29,810] (DeployerServiceUtils.java:executeService:1484)
+[Deployer] Entering executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [11 Jan 2017 17:46:30,459] (DeployerServiceUtils.java:executeService:1535)
+[Deployer] Initiating connection Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 17:46:30,576] (DeployerServiceUtils.java:executeService:1537)
+[Deployer] Connection Established Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 17:46:30,581] (DeployerServiceUtils.java:executeService:1539)
+[Deployer] Executing Service wm.deployer.gui.UITarget:listFilesInReplicateInBound Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 17:46:30,599] (DeployerServiceUtils.java:executeService:1541)
+[Deployer] Completed Executing Service wm.deployer.gui.UITarget:listFilesInReplicateInBound Secure Socket Layer = false
+
+[DEBUG] [11 Jan 2017 17:46:30,607] (DeployerServiceUtils.java:executeService:1577)
+[Deployer] Exiting executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [11 Jan 2017 17:46:30,615] (DeployerServiceUtils.java:listAction:212)
+[Deployer Service Status] Message = null
+
+[DEBUG] [11 Jan 2017 17:46:30,618] (DeployerServiceUtils.java:listAction:200)
+[Deployer Service Status] Service returned with status success
+
+[DEBUG] [11 Jan 2017 17:46:30,622] (DeployerServiceUtils.java:listAction:279)
+[Deployer] Exiting listAction(HashMap paramMap) Method
+
+[DEBUG] [11 Jan 2017 17:46:30,628] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 17:46:30,633] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 17:46:30,639] (ParseDeployerParams.java:parse:1192)
+[[DEP.0100.4.00] Success0]
+
+[ INFO] [11 Jan 2017 17:47:37,566] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 17:47:37,597] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [11 Jan 2017 17:47:37,612] (ParseDeployerParams.java:parse:1736)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.51] Import
+
+[DEBUG] [11 Jan 2017 17:47:37,612] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 17:47:37,628] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 17:47:37,628] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 17:47:37,628] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 17:47:37,644] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 17:47:37,644] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 17:47:37,644] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 17:47:37,659] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = import
+
+[DEBUG] [11 Jan 2017 17:47:37,659] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 17:47:37,659] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[DEBUG] [11 Jan 2017 17:47:37,659] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 17:47:37,675] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 17:47:37,675] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 17:47:37,675] (ParseDeployerParams.java:parse:1770)
+[5.59 - -700][DEP.0100.-700] Invalid Command line parameters
+
+[ INFO] [11 Jan 2017 18:06:54,571] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [11 Jan 2017 18:06:54,615] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [11 Jan 2017 18:06:54,632] (ParseDeployerParams.java:parse:1736)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.51] Import
+
+[DEBUG] [11 Jan 2017 18:06:54,635] (ParseDeployerParams.java:validateCommandLineParametersForAction:2553)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 18:06:54,642] (ParseDeployerParams.java:validateCommandLineParametersForAction:2829)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [11 Jan 2017 18:06:54,648] (ParseDeployerParams.java:validateCommandLineParametersForAction:2832)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 18:06:54,652] (ParseDeployerParams.java:validateCommandLineParametersForAction:2835)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [11 Jan 2017 18:06:54,664] (ParseDeployerParams.java:validateCommandLineParametersForAction:2837)
+[Deployer] Operation invoked by User Administrator on Deployer LP-R901F8E2:5555
+
+[DEBUG] [11 Jan 2017 18:06:54,669] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = port Value = 5555
+
+[DEBUG] [11 Jan 2017 18:06:54,672] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = host Value = LP-R901F8E2
+
+[DEBUG] [11 Jan 2017 18:06:54,675] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = action Value = import
+
+[DEBUG] [11 Jan 2017 18:06:54,679] (ParseDeployerParams.java:printParamMap:5136)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [11 Jan 2017 18:06:54,683] (ParseDeployerParams.java:printParamMap:5139)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[DEBUG] [11 Jan 2017 18:06:54,687] (ParseDeployerParams.java:validateCommandLineParametersForAction:5106)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [11 Jan 2017 18:06:54,692] (ParseDeployerParams.java:addStatusRecordToReport:5113)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [11 Jan 2017 18:06:54,699] (ParseDeployerParams.java:addStatusRecordToReport:5124)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [11 Jan 2017 18:06:54,707] (ParseDeployerParams.java:parse:1770)
+[5.59 - -700][DEP.0100.-700] Invalid Command line parameters
+
+[ INFO] [23 Jan 2017 14:38:24,592] (MainClass.java:initializeLogger:241)
+Logging initialized.
+
+[ INFO] [23 Jan 2017 14:38:24,609] (MainClass.java:main:172)
+No of command line arguments = 7
+
+[ INFO] [23 Jan 2017 14:38:24,611] (MainClass.java:main:174)
+Argument 0 = pq__RemoteServer_q9a_ProjectAutomator.xml
+
+[ INFO] [23 Jan 2017 14:38:24,615] (MainClass.java:main:174)
+Argument 1 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRuntime.xsd
+
+[ INFO] [23 Jan 2017 14:38:24,618] (MainClass.java:main:174)
+Argument 2 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRepository.xsd
+
+[ INFO] [23 Jan 2017 14:38:24,622] (MainClass.java:main:174)
+Argument 3 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\bin\log4j.properties
+
+[ INFO] [23 Jan 2017 14:38:24,626] (MainClass.java:main:174)
+Argument 4 = echo
+
+[ INFO] [23 Jan 2017 14:38:24,629] (MainClass.java:main:174)
+Argument 5 = check
+
+[ INFO] [23 Jan 2017 14:38:24,633] (MainClass.java:main:174)
+Argument 6 = 1
+
+[ERROR] [23 Jan 2017 14:38:24,635] (MainClass.java:main:191)
+Invalid value for operating system argument. Please pass 0 for unix or 1 for windows
+
+[ INFO] [23 Jan 2017 14:38:24,639] (MainClass.java:main:192)
+Continuing execution of ProjectAutomator with Operating system value as Windows
+
+[ INFO] [23 Jan 2017 14:38:24,667] (MainClass.java:main:202)
+Operating System on which ProjectAutomator is running is a WINDOWS or a WINDOWS Variant
+
+[ INFO] [23 Jan 2017 14:38:24,881] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ INFO] [23 Jan 2017 14:38:28,131] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:38:28,185] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:38:28,256] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:38:28,314] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ERROR] [23 Jan 2017 14:38:28,376] (ProjectPlanExecutorXMLParser.java:getDeployerServerDetails:422)
+Unable to connect to Deployer Server ${machinename}:${isport}. The <host></host> tag should be specified as follows <host>hostname.domain:port</host>
+
+[ INFO] [23 Jan 2017 14:38:28,388] (XMLReport.java:runExample:41)
+Started Generating Report ... 
+
+[ INFO] [23 Jan 2017 14:38:28,400] (XMLReport.java:createDOMTree:88)
+Info Messages Size = 3
+
+[ INFO] [23 Jan 2017 14:38:28,405] (XMLReport.java:createDOMTree:89)
+Error Messages Size = 0
+
+[ INFO] [23 Jan 2017 14:38:28,480] (XMLReport.java:runExample:44)
+Generated Automation Test Suite Report file successfully.
+
+[ INFO] [23 Jan 2017 14:40:34,818] (MainClass.java:initializeLogger:241)
+Logging initialized.
+
+[ INFO] [23 Jan 2017 14:40:34,825] (MainClass.java:main:172)
+No of command line arguments = 7
+
+[ INFO] [23 Jan 2017 14:40:34,826] (MainClass.java:main:174)
+Argument 0 = pq__RemoteServer_q9a_ProjectAutomator.xml
+
+[ INFO] [23 Jan 2017 14:40:34,829] (MainClass.java:main:174)
+Argument 1 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRuntime.xsd
+
+[ INFO] [23 Jan 2017 14:40:34,835] (MainClass.java:main:174)
+Argument 2 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRepository.xsd
+
+[ INFO] [23 Jan 2017 14:40:34,841] (MainClass.java:main:174)
+Argument 3 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\bin\log4j.properties
+
+[ INFO] [23 Jan 2017 14:40:34,846] (MainClass.java:main:174)
+Argument 4 = echo
+
+[ INFO] [23 Jan 2017 14:40:34,850] (MainClass.java:main:174)
+Argument 5 = check
+
+[ INFO] [23 Jan 2017 14:40:34,858] (MainClass.java:main:174)
+Argument 6 = 1
+
+[ERROR] [23 Jan 2017 14:40:34,861] (MainClass.java:main:191)
+Invalid value for operating system argument. Please pass 0 for unix or 1 for windows
+
+[ INFO] [23 Jan 2017 14:40:34,866] (MainClass.java:main:192)
+Continuing execution of ProjectAutomator with Operating system value as Windows
+
+[ INFO] [23 Jan 2017 14:40:34,878] (MainClass.java:main:202)
+Operating System on which ProjectAutomator is running is a WINDOWS or a WINDOWS Variant
+
+[ INFO] [23 Jan 2017 14:40:35,036] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ INFO] [23 Jan 2017 14:40:37,221] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:40:37,270] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:40:37,321] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:40:37,358] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:40:37,561] (ProjectPlanExecutorXMLParser.java:getDeployerServerDetails:458)
+Using WmDeployer package on the Server LP-R901F8E2:5555 configured with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:40:37,574] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Local of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 14:40:38,101] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[ INFO] [23 Jan 2017 14:40:38,306] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[DEBUG] [23 Jan 2017 14:40:38,315] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:40:38,964] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:40:38,971] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Bibin_remote of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 14:40:38,991] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[ INFO] [23 Jan 2017 14:40:39,044] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[DEBUG] [23 Jan 2017 14:40:39,050] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:40:39,121] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:40:40,725] (ISServerAlias.java:listISPackages:891)
+Error invoking Service wm.server.packages:packageList on server LP-R901F8E2:5555
+
+[ERROR] [23 Jan 2017 14:40:40,740] (ISServerAlias.java:listISPackages:895)
+Error getting list of packages from  Integration Server Alias Local
+
+[ INFO] [23 Jan 2017 14:40:40,747] (XMLReport.java:runExample:41)
+Started Generating Report ... 
+
+[ INFO] [23 Jan 2017 14:40:40,754] (XMLReport.java:createDOMTree:88)
+Info Messages Size = 7
+
+[ INFO] [23 Jan 2017 14:40:40,759] (XMLReport.java:createDOMTree:89)
+Error Messages Size = 1
+
+[ INFO] [23 Jan 2017 14:40:40,789] (XMLReport.java:runExample:44)
+Generated Automation Test Suite Report file successfully.
+
+[ INFO] [23 Jan 2017 14:43:25,479] (MainClass.java:initializeLogger:241)
+Logging initialized.
+
+[ INFO] [23 Jan 2017 14:43:25,487] (MainClass.java:main:172)
+No of command line arguments = 7
+
+[ INFO] [23 Jan 2017 14:43:25,492] (MainClass.java:main:174)
+Argument 0 = pq__RemoteServer_q9a_ProjectAutomator.xml
+
+[ INFO] [23 Jan 2017 14:43:25,497] (MainClass.java:main:174)
+Argument 1 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRuntime.xsd
+
+[ INFO] [23 Jan 2017 14:43:25,504] (MainClass.java:main:174)
+Argument 2 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRepository.xsd
+
+[ INFO] [23 Jan 2017 14:43:25,511] (MainClass.java:main:174)
+Argument 3 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\bin\log4j.properties
+
+[ INFO] [23 Jan 2017 14:43:25,517] (MainClass.java:main:174)
+Argument 4 = echo
+
+[ INFO] [23 Jan 2017 14:43:25,521] (MainClass.java:main:174)
+Argument 5 = check
+
+[ INFO] [23 Jan 2017 14:43:25,529] (MainClass.java:main:174)
+Argument 6 = 1
+
+[ERROR] [23 Jan 2017 14:43:25,533] (MainClass.java:main:191)
+Invalid value for operating system argument. Please pass 0 for unix or 1 for windows
+
+[ INFO] [23 Jan 2017 14:43:25,541] (MainClass.java:main:192)
+Continuing execution of ProjectAutomator with Operating system value as Windows
+
+[ INFO] [23 Jan 2017 14:43:25,550] (MainClass.java:main:202)
+Operating System on which ProjectAutomator is running is a WINDOWS or a WINDOWS Variant
+
+[ INFO] [23 Jan 2017 14:43:25,697] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ INFO] [23 Jan 2017 14:43:27,869] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:43:27,908] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:43:27,952] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:43:27,987] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:43:28,044] (ProjectPlanExecutorXMLParser.java:getDeployerServerDetails:458)
+Using WmDeployer package on the Server LP-R901F8E2:5555 configured with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:43:28,057] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Local of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 14:43:28,310] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[ INFO] [23 Jan 2017 14:43:28,375] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[DEBUG] [23 Jan 2017 14:43:28,384] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:43:28,483] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:43:28,490] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Bibin_remote of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 14:43:28,506] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[ INFO] [23 Jan 2017 14:43:28,562] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[DEBUG] [23 Jan 2017 14:43:28,569] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:43:28,629] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:43:31,835] (ISTNAssetUtil.java:getISAsset:842)
+Adding IS Package BstarBPM from srcAlias=Local to Deployment Set myDeploymentSet
+
+[DEBUG] [23 Jan 2017 14:43:31,841] (ISTNAssetUtil.java:getISAsset:846)
+Local$BstarBPM$PACKAGE_INCL
+
+[ INFO] [23 Jan 2017 14:43:31,879] (ISTNAssetUtil.java:getISAsset:842)
+Adding IS Package BstarCanonical from srcAlias=Local to Deployment Set myDeploymentSet
+
+[DEBUG] [23 Jan 2017 14:43:31,885] (ISTNAssetUtil.java:getISAsset:846)
+Local$BstarCanonical$PACKAGE_INCL
+
+[ INFO] [23 Jan 2017 14:43:31,928] (ISTNAssetUtil.java:getISAsset:842)
+Adding IS Package BstarTest from srcAlias=Local to Deployment Set myDeploymentSet
+
+[DEBUG] [23 Jan 2017 14:43:31,937] (ISTNAssetUtil.java:getISAsset:846)
+Local$BstarTest$PACKAGE_INCL
+
+[DEBUG] [23 Jan 2017 14:43:31,947] (ProjectPlanExecutorXMLParser.java:getProjectDetails:618)
+Deleting Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:43:31,970] (ProjectPlanExecutorXMLParser.java:getProjectDetails:623)
+Creating Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:43:32,674] (ProjectPlanExecutorXMLParser.java:getProjectDetails:625)
+Created Project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:43:32,683] (DeploymentSet.java:create:181)
+Creating Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:43:32,794] (DeploymentSet.java:create:210)
+Created Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:43:32,804] (DeploymentSet.java:updateSourceServerAliasToSets:380)
+Updating Source Server Aliases on Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:43:33,186] (DeploymentSet.java:updateSourceServerAliasToSets:425)
+Updated Source Server Aliases on Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:43:33,196] (DeploymentSet.java:addPackagesToDeploymentSet:1459)
+Adding Pacakges to Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:43:35,673] (DeploymentSet.java:addPackagesToDeploymentSet:1529)
+Error invoking Service wm.deployer.gui.UIBundle:updateBundlePackageList on server LP-R901F8E2:5555
+
+[ERROR] [23 Jan 2017 14:43:35,684] (DeploymentSet.java:addPackagesToDeploymentSet:1534)
+Error adding Packages to deployment set myDeploymentSet in Project Remote_Server : [DEP.0002.0031] Could not invoke service wm.art.admin.connection:getResourceConfiguration remotely.
+
+[ INFO] [23 Jan 2017 14:43:35,699] (XMLReport.java:runExample:41)
+Started Generating Report ... 
+
+[ INFO] [23 Jan 2017 14:43:35,706] (XMLReport.java:createDOMTree:88)
+Info Messages Size = 11
+
+[ INFO] [23 Jan 2017 14:43:35,714] (XMLReport.java:createDOMTree:89)
+Error Messages Size = 1
+
+[ INFO] [23 Jan 2017 14:43:35,749] (XMLReport.java:runExample:44)
+Generated Automation Test Suite Report file successfully.
+
+[ INFO] [23 Jan 2017 14:50:51,114] (MainClass.java:initializeLogger:241)
+Logging initialized.
+
+[ INFO] [23 Jan 2017 14:50:51,122] (MainClass.java:main:172)
+No of command line arguments = 7
+
+[ INFO] [23 Jan 2017 14:50:51,127] (MainClass.java:main:174)
+Argument 0 = pq__RemoteServer_q9a_ProjectAutomator.xml
+
+[ INFO] [23 Jan 2017 14:50:51,132] (MainClass.java:main:174)
+Argument 1 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRuntime.xsd
+
+[ INFO] [23 Jan 2017 14:50:51,137] (MainClass.java:main:174)
+Argument 2 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRepository.xsd
+
+[ INFO] [23 Jan 2017 14:50:51,145] (MainClass.java:main:174)
+Argument 3 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\bin\log4j.properties
+
+[ INFO] [23 Jan 2017 14:50:51,150] (MainClass.java:main:174)
+Argument 4 = echo
+
+[ INFO] [23 Jan 2017 14:50:51,154] (MainClass.java:main:174)
+Argument 5 = check
+
+[ INFO] [23 Jan 2017 14:50:51,162] (MainClass.java:main:174)
+Argument 6 = 1
+
+[ERROR] [23 Jan 2017 14:50:51,166] (MainClass.java:main:191)
+Invalid value for operating system argument. Please pass 0 for unix or 1 for windows
+
+[ INFO] [23 Jan 2017 14:50:51,171] (MainClass.java:main:192)
+Continuing execution of ProjectAutomator with Operating system value as Windows
+
+[ INFO] [23 Jan 2017 14:50:51,182] (MainClass.java:main:202)
+Operating System on which ProjectAutomator is running is a WINDOWS or a WINDOWS Variant
+
+[ INFO] [23 Jan 2017 14:50:51,337] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ INFO] [23 Jan 2017 14:50:53,502] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:50:53,548] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:50:53,612] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:50:53,654] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:50:53,722] (ProjectPlanExecutorXMLParser.java:getDeployerServerDetails:458)
+Using WmDeployer package on the Server LP-R901F8E2:5555 configured with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:50:53,737] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Local of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 14:50:54,204] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[ INFO] [23 Jan 2017 14:50:54,251] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[DEBUG] [23 Jan 2017 14:50:54,257] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:50:54,312] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:50:54,319] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Bibin_remote of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 14:50:54,336] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[ INFO] [23 Jan 2017 14:50:54,386] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[DEBUG] [23 Jan 2017 14:50:54,394] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:50:54,451] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:50:54,540] (ISTNAssetUtil.java:getISAsset:842)
+Adding IS Package BstarBPM from srcAlias=Local to Deployment Set myDeploymentSet
+
+[DEBUG] [23 Jan 2017 14:50:54,548] (ISTNAssetUtil.java:getISAsset:846)
+Local$BstarBPM$PACKAGE_INCL
+
+[ INFO] [23 Jan 2017 14:50:54,595] (ISTNAssetUtil.java:getISAsset:842)
+Adding IS Package BstarCanonical from srcAlias=Local to Deployment Set myDeploymentSet
+
+[DEBUG] [23 Jan 2017 14:50:54,603] (ISTNAssetUtil.java:getISAsset:846)
+Local$BstarCanonical$PACKAGE_INCL
+
+[ INFO] [23 Jan 2017 14:50:54,651] (ISTNAssetUtil.java:getISAsset:842)
+Adding IS Package BstarTest from srcAlias=Local to Deployment Set myDeploymentSet
+
+[DEBUG] [23 Jan 2017 14:50:54,658] (ISTNAssetUtil.java:getISAsset:846)
+Local$BstarTest$PACKAGE_INCL
+
+[DEBUG] [23 Jan 2017 14:50:54,669] (ProjectPlanExecutorXMLParser.java:getProjectDetails:618)
+Deleting Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:50:54,700] (ProjectPlanExecutorXMLParser.java:getProjectDetails:623)
+Creating Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:50:55,140] (ProjectPlanExecutorXMLParser.java:getProjectDetails:625)
+Created Project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:50:55,148] (DeploymentSet.java:create:181)
+Creating Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:50:55,237] (DeploymentSet.java:create:210)
+Created Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:50:55,245] (DeploymentSet.java:updateSourceServerAliasToSets:380)
+Updating Source Server Aliases on Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:50:55,313] (DeploymentSet.java:updateSourceServerAliasToSets:425)
+Updated Source Server Aliases on Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:50:55,324] (DeploymentSet.java:addPackagesToDeploymentSet:1459)
+Adding Pacakges to Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:50:56,380] (DeploymentSet.java:addPackagesToDeploymentSet:1529)
+Error invoking Service wm.deployer.gui.UIBundle:updateBundlePackageList on server LP-R901F8E2:5555
+
+[ERROR] [23 Jan 2017 14:50:56,389] (DeploymentSet.java:addPackagesToDeploymentSet:1534)
+Error adding Packages to deployment set myDeploymentSet in Project Remote_Server : [DEP.0002.0031] Could not invoke service wm.art.admin.connection:getResourceConfiguration remotely.
+
+[ INFO] [23 Jan 2017 14:50:56,402] (XMLReport.java:runExample:41)
+Started Generating Report ... 
+
+[ INFO] [23 Jan 2017 14:50:56,407] (XMLReport.java:createDOMTree:88)
+Info Messages Size = 11
+
+[ INFO] [23 Jan 2017 14:50:56,414] (XMLReport.java:createDOMTree:89)
+Error Messages Size = 1
+
+[ INFO] [23 Jan 2017 14:50:56,441] (XMLReport.java:runExample:44)
+Generated Automation Test Suite Report file successfully.
+
+[ INFO] [23 Jan 2017 14:54:16,744] (MainClass.java:initializeLogger:241)
+Logging initialized.
+
+[ INFO] [23 Jan 2017 14:54:16,753] (MainClass.java:main:172)
+No of command line arguments = 7
+
+[ INFO] [23 Jan 2017 14:54:16,757] (MainClass.java:main:174)
+Argument 0 = pq__RemoteServer_q9a_ProjectAutomator.xml
+
+[ INFO] [23 Jan 2017 14:54:16,763] (MainClass.java:main:174)
+Argument 1 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRuntime.xsd
+
+[ INFO] [23 Jan 2017 14:54:16,769] (MainClass.java:main:174)
+Argument 2 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRepository.xsd
+
+[ INFO] [23 Jan 2017 14:54:16,776] (MainClass.java:main:174)
+Argument 3 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\bin\log4j.properties
+
+[ INFO] [23 Jan 2017 14:54:16,781] (MainClass.java:main:174)
+Argument 4 = echo
+
+[ INFO] [23 Jan 2017 14:54:16,785] (MainClass.java:main:174)
+Argument 5 = check
+
+[ INFO] [23 Jan 2017 14:54:16,795] (MainClass.java:main:174)
+Argument 6 = 1
+
+[ERROR] [23 Jan 2017 14:54:16,801] (MainClass.java:main:191)
+Invalid value for operating system argument. Please pass 0 for unix or 1 for windows
+
+[ INFO] [23 Jan 2017 14:54:16,809] (MainClass.java:main:192)
+Continuing execution of ProjectAutomator with Operating system value as Windows
+
+[ INFO] [23 Jan 2017 14:54:16,819] (MainClass.java:main:202)
+Operating System on which ProjectAutomator is running is a WINDOWS or a WINDOWS Variant
+
+[ INFO] [23 Jan 2017 14:54:16,977] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ INFO] [23 Jan 2017 14:54:19,278] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:54:19,325] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:54:19,387] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:54:19,433] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:54:19,503] (ProjectPlanExecutorXMLParser.java:getDeployerServerDetails:458)
+Using WmDeployer package on the Server LP-R901F8E2:5555 configured with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:54:19,518] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Local of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 14:54:19,847] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[ INFO] [23 Jan 2017 14:54:19,969] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[DEBUG] [23 Jan 2017 14:54:19,977] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:54:20,050] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:54:20,060] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Bibin_remote of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 14:54:20,095] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[ INFO] [23 Jan 2017 14:54:20,190] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[DEBUG] [23 Jan 2017 14:54:20,201] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:54:20,431] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:54:20,640] (ISTNAssetUtil.java:getISAsset:842)
+Adding IS Package BstarBPM from srcAlias=Local to Deployment Set myDeploymentSet
+
+[DEBUG] [23 Jan 2017 14:54:20,647] (ISTNAssetUtil.java:getISAsset:846)
+Local$BstarBPM$PACKAGE_INCL
+
+[DEBUG] [23 Jan 2017 14:54:20,654] (ProjectPlanExecutorXMLParser.java:getProjectDetails:618)
+Deleting Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:20,678] (ProjectPlanExecutorXMLParser.java:getProjectDetails:623)
+Creating Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:20,923] (ProjectPlanExecutorXMLParser.java:getProjectDetails:625)
+Created Project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:54:20,931] (DeploymentSet.java:create:181)
+Creating Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:20,995] (DeploymentSet.java:create:210)
+Created Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:54:21,001] (DeploymentSet.java:updateSourceServerAliasToSets:380)
+Updating Source Server Aliases on Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:21,072] (DeploymentSet.java:updateSourceServerAliasToSets:425)
+Updated Source Server Aliases on Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:54:21,081] (DeploymentSet.java:addPackagesToDeploymentSet:1459)
+Adding Pacakges to Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:21,396] (DeploymentSet.java:addPackagesToDeploymentSet:1488)
+Added Pacakges to Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:54:21,407] (DeploymentSet.java:resolveDependencies:3567)
+===>>> Default Dependency Action = fulladd<<<===
+
+[DEBUG] [23 Jan 2017 14:54:21,417] (DeploymentSet.java:getUnResolvedDependencies:3770)
+Getting Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:54:21,482] (DeploymentSet.java:getUnResolvedDependencies:3878)
+Referenced Component Type = ACL
+
+[DEBUG] [23 Jan 2017 14:54:21,489] (DeploymentSet.java:getUnResolvedDependencies:3903)
+===> Referenced Component Folder = <===
+
+[DEBUG] [23 Jan 2017 14:54:21,495] (DeploymentSet.java:getUnResolvedDependencies:3905)
+===> Referenced Component ID = Anonymous<===
+
+[DEBUG] [23 Jan 2017 14:54:21,501] (DeploymentSet.java:getUnResolvedDependencies:3907)
+===> Referenced Component Name = Anonymous<===
+
+[DEBUG] [23 Jan 2017 14:54:21,508] (DeploymentSet.java:getUnResolvedDependencies:3909)
+===> Condition = true<===
+
+[DEBUG] [23 Jan 2017 14:54:21,515] (DeploymentSet.java:getUnResolvedDependencies:3878)
+Referenced Component Type = ACL
+
+[DEBUG] [23 Jan 2017 14:54:21,520] (DeploymentSet.java:getUnResolvedDependencies:3903)
+===> Referenced Component Folder = <===
+
+[DEBUG] [23 Jan 2017 14:54:21,527] (DeploymentSet.java:getUnResolvedDependencies:3905)
+===> Referenced Component ID = Default<===
+
+[DEBUG] [23 Jan 2017 14:54:21,535] (DeploymentSet.java:getUnResolvedDependencies:3907)
+===> Referenced Component Name = Default<===
+
+[DEBUG] [23 Jan 2017 14:54:21,540] (DeploymentSet.java:getUnResolvedDependencies:3909)
+===> Condition = true<===
+
+[ INFO] [23 Jan 2017 14:54:21,547] (DeploymentSet.java:getUnResolvedDependencies:3944)
+Retrieved Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:54:21,554] (DeploymentSet.java:resolveDependencies:3580)
+===>>> Dependency Action = fulladd<<<===
+
+[DEBUG] [23 Jan 2017 14:54:21,560] (DeploymentSet.java:resolveDependencies:3589)
+===>>> type = ACL<<<======>>> dependencyStr = IS$Local$IS$Local$ACL$Anonymous$ACL$Anonymous$$null$null<<<===
+
+[DEBUG] [23 Jan 2017 14:54:21,570] (DeploymentSet.java:resolveDependencies:3622)
+<<<===dependencyStr IS$Local$IS$Local$ACL$Anonymous$ACL$Anonymous$$null$null===>
+
+[DEBUG] [23 Jan 2017 14:54:21,580] (DeploymentSet.java:resolveDependencies:3589)
+===>>> type = ACL<<<======>>> dependencyStr = IS$Local$IS$Local$ACL$Default$ACL$Default$$null$null<<<===
+
+[DEBUG] [23 Jan 2017 14:54:21,589] (DeploymentSet.java:resolveDependencies:3622)
+<<<===dependencyStr IS$Local$IS$Local$ACL$Default$ACL$Default$$null$null===>
+
+[DEBUG] [23 Jan 2017 14:54:22,377] (DeploymentSet.java:getUnResolvedDependencies:3770)
+Getting Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:22,432] (DeploymentSet.java:getUnResolvedDependencies:3944)
+Retrieved Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:22,439] (DeploymentSet.java:resolveDependencies:3758)
+Resolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:26,768] (DeploymentMap.java:create:78)
+Creating Deployment Map myDeploymentMap in Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:26,930] (DeploymentMap.java:create:98)
+Successfully created Deployment Map myDeploymentMap in Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:27,244] (DeploymentCandidate.java:create:91)
+Creating Deployment Candidate myDeployment with Build myBuild and Deployment Map myDeploymentMap for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:27,373] (DeploymentCandidate.java:create:123)
+Successfully created Deployment Candidate myDeployment with Build myBuild and Deployment Map myDeploymentMap for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:54:27,620] (XMLReport.java:runExample:41)
+Started Generating Report ... 
+
+[ INFO] [23 Jan 2017 14:54:27,624] (XMLReport.java:createDOMTree:88)
+Info Messages Size = 16
+
+[ INFO] [23 Jan 2017 14:54:27,628] (XMLReport.java:createDOMTree:89)
+Error Messages Size = 0
+
+[ INFO] [23 Jan 2017 14:54:27,649] (XMLReport.java:runExample:44)
+Generated Automation Test Suite Report file successfully.
+
+[ INFO] [23 Jan 2017 14:55:54,207] (MainClass.java:initializeLogger:241)
+Logging initialized.
+
+[ INFO] [23 Jan 2017 14:55:54,216] (MainClass.java:main:172)
+No of command line arguments = 7
+
+[ INFO] [23 Jan 2017 14:55:54,220] (MainClass.java:main:174)
+Argument 0 = pq__RemoteServer_q9a_ProjectAutomator.xml
+
+[ INFO] [23 Jan 2017 14:55:54,225] (MainClass.java:main:174)
+Argument 1 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRuntime.xsd
+
+[ INFO] [23 Jan 2017 14:55:54,231] (MainClass.java:main:174)
+Argument 2 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRepository.xsd
+
+[ INFO] [23 Jan 2017 14:55:54,237] (MainClass.java:main:174)
+Argument 3 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\bin\log4j.properties
+
+[ INFO] [23 Jan 2017 14:55:54,244] (MainClass.java:main:174)
+Argument 4 = echo
+
+[ INFO] [23 Jan 2017 14:55:54,248] (MainClass.java:main:174)
+Argument 5 = check
+
+[ INFO] [23 Jan 2017 14:55:54,254] (MainClass.java:main:174)
+Argument 6 = 1
+
+[ERROR] [23 Jan 2017 14:55:54,261] (MainClass.java:main:191)
+Invalid value for operating system argument. Please pass 0 for unix or 1 for windows
+
+[ INFO] [23 Jan 2017 14:55:54,267] (MainClass.java:main:192)
+Continuing execution of ProjectAutomator with Operating system value as Windows
+
+[ INFO] [23 Jan 2017 14:55:54,278] (MainClass.java:main:202)
+Operating System on which ProjectAutomator is running is a WINDOWS or a WINDOWS Variant
+
+[ INFO] [23 Jan 2017 14:55:54,431] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ INFO] [23 Jan 2017 14:55:56,580] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:55:56,627] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:55:56,683] (ProjectPlanExecutorXMLParser.java:getDeployerServerDetails:458)
+Using WmDeployer package on the Server LP-R901F8E2:5555 configured with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:55:56,697] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Local of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 14:55:56,936] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[ INFO] [23 Jan 2017 14:55:56,986] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[DEBUG] [23 Jan 2017 14:55:56,995] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:55:57,039] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:55:57,080] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 14:55:57,173] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[DEBUG] [23 Jan 2017 14:55:57,183] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Bibin_remote of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 14:55:57,225] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[ INFO] [23 Jan 2017 14:55:57,282] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[DEBUG] [23 Jan 2017 14:55:57,290] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:55:57,354] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 14:55:57,434] (ISTNAssetUtil.java:getISAsset:842)
+Adding IS Package BstarBPM from srcAlias=Local to Deployment Set myDeploymentSet
+
+[DEBUG] [23 Jan 2017 14:55:57,444] (ISTNAssetUtil.java:getISAsset:846)
+Local$BstarBPM$PACKAGE_INCL
+
+[DEBUG] [23 Jan 2017 14:55:57,454] (ProjectPlanExecutorXMLParser.java:getProjectDetails:618)
+Deleting Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:57,488] (ProjectPlanExecutorXMLParser.java:getProjectDetails:623)
+Creating Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:57,816] (ProjectPlanExecutorXMLParser.java:getProjectDetails:625)
+Created Project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:55:57,822] (DeploymentSet.java:create:181)
+Creating Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:57,908] (DeploymentSet.java:create:210)
+Created Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:55:57,913] (DeploymentSet.java:updateSourceServerAliasToSets:380)
+Updating Source Server Aliases on Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:57,970] (DeploymentSet.java:updateSourceServerAliasToSets:425)
+Updated Source Server Aliases on Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:55:57,976] (DeploymentSet.java:addPackagesToDeploymentSet:1459)
+Adding Pacakges to Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:58,154] (DeploymentSet.java:addPackagesToDeploymentSet:1488)
+Added Pacakges to Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:55:58,160] (DeploymentSet.java:resolveDependencies:3567)
+===>>> Default Dependency Action = fulladd<<<===
+
+[DEBUG] [23 Jan 2017 14:55:58,165] (DeploymentSet.java:getUnResolvedDependencies:3770)
+Getting Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:55:58,217] (DeploymentSet.java:getUnResolvedDependencies:3878)
+Referenced Component Type = ACL
+
+[DEBUG] [23 Jan 2017 14:55:58,221] (DeploymentSet.java:getUnResolvedDependencies:3903)
+===> Referenced Component Folder = <===
+
+[DEBUG] [23 Jan 2017 14:55:58,226] (DeploymentSet.java:getUnResolvedDependencies:3905)
+===> Referenced Component ID = Anonymous<===
+
+[DEBUG] [23 Jan 2017 14:55:58,232] (DeploymentSet.java:getUnResolvedDependencies:3907)
+===> Referenced Component Name = Anonymous<===
+
+[DEBUG] [23 Jan 2017 14:55:58,237] (DeploymentSet.java:getUnResolvedDependencies:3909)
+===> Condition = true<===
+
+[DEBUG] [23 Jan 2017 14:55:58,241] (DeploymentSet.java:getUnResolvedDependencies:3878)
+Referenced Component Type = ACL
+
+[DEBUG] [23 Jan 2017 14:55:58,247] (DeploymentSet.java:getUnResolvedDependencies:3903)
+===> Referenced Component Folder = <===
+
+[DEBUG] [23 Jan 2017 14:55:58,252] (DeploymentSet.java:getUnResolvedDependencies:3905)
+===> Referenced Component ID = Default<===
+
+[DEBUG] [23 Jan 2017 14:55:58,256] (DeploymentSet.java:getUnResolvedDependencies:3907)
+===> Referenced Component Name = Default<===
+
+[DEBUG] [23 Jan 2017 14:55:58,264] (DeploymentSet.java:getUnResolvedDependencies:3909)
+===> Condition = true<===
+
+[ INFO] [23 Jan 2017 14:55:58,270] (DeploymentSet.java:getUnResolvedDependencies:3944)
+Retrieved Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 14:55:58,279] (DeploymentSet.java:resolveDependencies:3580)
+===>>> Dependency Action = fulladd<<<===
+
+[DEBUG] [23 Jan 2017 14:55:58,284] (DeploymentSet.java:resolveDependencies:3589)
+===>>> type = ACL<<<======>>> dependencyStr = IS$Local$IS$Local$ACL$Anonymous$ACL$Anonymous$$null$null<<<===
+
+[DEBUG] [23 Jan 2017 14:55:58,290] (DeploymentSet.java:resolveDependencies:3622)
+<<<===dependencyStr IS$Local$IS$Local$ACL$Anonymous$ACL$Anonymous$$null$null===>
+
+[DEBUG] [23 Jan 2017 14:55:58,297] (DeploymentSet.java:resolveDependencies:3589)
+===>>> type = ACL<<<======>>> dependencyStr = IS$Local$IS$Local$ACL$Default$ACL$Default$$null$null<<<===
+
+[DEBUG] [23 Jan 2017 14:55:58,303] (DeploymentSet.java:resolveDependencies:3622)
+<<<===dependencyStr IS$Local$IS$Local$ACL$Default$ACL$Default$$null$null===>
+
+[DEBUG] [23 Jan 2017 14:55:58,439] (DeploymentSet.java:getUnResolvedDependencies:3770)
+Getting Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:58,491] (DeploymentSet.java:getUnResolvedDependencies:3944)
+Retrieved Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:58,498] (DeploymentSet.java:resolveDependencies:3758)
+Resolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:59,020] (DeploymentMap.java:create:78)
+Creating Deployment Map myDeploymentMap in Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:59,069] (DeploymentMap.java:create:98)
+Successfully created Deployment Map myDeploymentMap in Project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:59,133] (DeploymentCandidate.java:create:91)
+Creating Deployment Candidate myDeployment with Build myBuild and Deployment Map myDeploymentMap for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:59,188] (DeploymentCandidate.java:create:123)
+Successfully created Deployment Candidate myDeployment with Build myBuild and Deployment Map myDeploymentMap for project Remote_Server
+
+[ INFO] [23 Jan 2017 14:55:59,267] (XMLReport.java:runExample:41)
+Started Generating Report ... 
+
+[ INFO] [23 Jan 2017 14:55:59,273] (XMLReport.java:createDOMTree:88)
+Info Messages Size = 16
+
+[ INFO] [23 Jan 2017 14:55:59,278] (XMLReport.java:createDOMTree:89)
+Error Messages Size = 0
+
+[ INFO] [23 Jan 2017 14:55:59,305] (XMLReport.java:runExample:44)
+Generated Automation Test Suite Report file successfully.
+
+[ INFO] [23 Jan 2017 15:44:06,974] (MainClass.java:initializeLogger:241)
+Logging initialized.
+
+[ INFO] [23 Jan 2017 15:44:07,001] (MainClass.java:main:172)
+No of command line arguments = 7
+
+[ INFO] [23 Jan 2017 15:44:07,033] (MainClass.java:main:174)
+Argument 0 = pq__RemoteServer_q9a_ProjectAutomator.xml
+
+[ INFO] [23 Jan 2017 15:44:07,051] (MainClass.java:main:174)
+Argument 1 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRuntime.xsd
+
+[ INFO] [23 Jan 2017 15:44:07,068] (MainClass.java:main:174)
+Argument 2 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\config\ProjectAutomatorForRepository.xsd
+
+[ INFO] [23 Jan 2017 15:44:07,083] (MainClass.java:main:174)
+Argument 3 = C:\SoftwareAG\IntegrationServer\packages\WmDeployer\bin\log4j.properties
+
+[ INFO] [23 Jan 2017 15:44:07,095] (MainClass.java:main:174)
+Argument 4 = echo
+
+[ INFO] [23 Jan 2017 15:44:07,102] (MainClass.java:main:174)
+Argument 5 = check
+
+[ INFO] [23 Jan 2017 15:44:07,115] (MainClass.java:main:174)
+Argument 6 = 1
+
+[ERROR] [23 Jan 2017 15:44:07,127] (MainClass.java:main:191)
+Invalid value for operating system argument. Please pass 0 for unix or 1 for windows
+
+[ INFO] [23 Jan 2017 15:44:07,140] (MainClass.java:main:192)
+Continuing execution of ProjectAutomator with Operating system value as Windows
+
+[ INFO] [23 Jan 2017 15:44:07,156] (MainClass.java:main:202)
+Operating System on which ProjectAutomator is running is a WINDOWS or a WINDOWS Variant
+
+[ INFO] [23 Jan 2017 15:44:07,412] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ INFO] [23 Jan 2017 15:44:11,085] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 15:44:11,170] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 15:44:12,033] (ProjectPlanExecutorXMLParser.java:getDeployerServerDetails:458)
+Using WmDeployer package on the Server LP-R901F8E2:5555 configured with the user Administrator
+
+[DEBUG] [23 Jan 2017 15:44:12,054] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Local of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 15:44:14,279] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[ INFO] [23 Jan 2017 15:44:15,771] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Local@LP-R901F8E2:5555
+
+[DEBUG] [23 Jan 2017 15:44:15,784] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 15:44:15,847] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 15:44:15,898] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [23 Jan 2017 15:44:18,380] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Local@LP-R901F8E2:5555 with the user Administrator
+
+[DEBUG] [23 Jan 2017 15:44:18,392] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias Bibin_remote of pluginType IS&TN exists.
+
+[DEBUG] [23 Jan 2017 15:44:18,429] (DeployerUtil.java:createISServerAliases:181)
+Deleting IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[ INFO] [23 Jan 2017 15:44:18,495] (DeployerUtil.java:createISServerAliases:184)
+Deleted IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555
+
+[DEBUG] [23 Jan 2017 15:44:18,517] (DeployerUtil.java:createISServerAliases:187)
+Creating IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 15:44:18,592] (DeployerUtil.java:createISServerAliases:212)
+Created IS Alias : aliasName = Bibin_remote@LP-R9030AGM:5555 with the user Administrator
+
+[ INFO] [23 Jan 2017 15:44:18,950] (ISTNAssetUtil.java:getISAsset:842)
+Adding IS Package BstarBPM from srcAlias=Local to Deployment Set myDeploymentSet
+
+[DEBUG] [23 Jan 2017 15:44:18,955] (ISTNAssetUtil.java:getISAsset:846)
+Local$BstarBPM$PACKAGE_INCL
+
+[DEBUG] [23 Jan 2017 15:44:18,973] (ProjectPlanExecutorXMLParser.java:getProjectDetails:618)
+Deleting Project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:19,011] (ProjectPlanExecutorXMLParser.java:getProjectDetails:623)
+Creating Project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:19,934] (ProjectPlanExecutorXMLParser.java:getProjectDetails:625)
+Created Project Remote_Server
+
+[DEBUG] [23 Jan 2017 15:44:19,939] (DeploymentSet.java:create:181)
+Creating Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:20,153] (DeploymentSet.java:create:210)
+Created Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 15:44:20,162] (DeploymentSet.java:updateSourceServerAliasToSets:380)
+Updating Source Server Aliases on Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:20,294] (DeploymentSet.java:updateSourceServerAliasToSets:425)
+Updated Source Server Aliases on Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 15:44:20,306] (DeploymentSet.java:addPackagesToDeploymentSet:1459)
+Adding Pacakges to Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:20,897] (DeploymentSet.java:addPackagesToDeploymentSet:1488)
+Added Pacakges to Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 15:44:20,906] (DeploymentSet.java:resolveDependencies:3567)
+===>>> Default Dependency Action = fulladd<<<===
+
+[DEBUG] [23 Jan 2017 15:44:20,915] (DeploymentSet.java:getUnResolvedDependencies:3770)
+Getting Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 15:44:21,346] (DeploymentSet.java:getUnResolvedDependencies:3878)
+Referenced Component Type = ACL
+
+[DEBUG] [23 Jan 2017 15:44:21,354] (DeploymentSet.java:getUnResolvedDependencies:3903)
+===> Referenced Component Folder = <===
+
+[DEBUG] [23 Jan 2017 15:44:21,364] (DeploymentSet.java:getUnResolvedDependencies:3905)
+===> Referenced Component ID = Anonymous<===
+
+[DEBUG] [23 Jan 2017 15:44:21,372] (DeploymentSet.java:getUnResolvedDependencies:3907)
+===> Referenced Component Name = Anonymous<===
+
+[DEBUG] [23 Jan 2017 15:44:21,396] (DeploymentSet.java:getUnResolvedDependencies:3909)
+===> Condition = true<===
+
+[DEBUG] [23 Jan 2017 15:44:21,418] (DeploymentSet.java:getUnResolvedDependencies:3878)
+Referenced Component Type = ACL
+
+[DEBUG] [23 Jan 2017 15:44:21,431] (DeploymentSet.java:getUnResolvedDependencies:3903)
+===> Referenced Component Folder = <===
+
+[DEBUG] [23 Jan 2017 15:44:21,446] (DeploymentSet.java:getUnResolvedDependencies:3905)
+===> Referenced Component ID = Default<===
+
+[DEBUG] [23 Jan 2017 15:44:21,465] (DeploymentSet.java:getUnResolvedDependencies:3907)
+===> Referenced Component Name = Default<===
+
+[DEBUG] [23 Jan 2017 15:44:21,491] (DeploymentSet.java:getUnResolvedDependencies:3909)
+===> Condition = true<===
+
+[ INFO] [23 Jan 2017 15:44:21,501] (DeploymentSet.java:getUnResolvedDependencies:3944)
+Retrieved Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[DEBUG] [23 Jan 2017 15:44:21,518] (DeploymentSet.java:resolveDependencies:3580)
+===>>> Dependency Action = fulladd<<<===
+
+[DEBUG] [23 Jan 2017 15:44:21,528] (DeploymentSet.java:resolveDependencies:3589)
+===>>> type = ACL<<<======>>> dependencyStr = IS$Local$IS$Local$ACL$Anonymous$ACL$Anonymous$$null$null<<<===
+
+[DEBUG] [23 Jan 2017 15:44:21,543] (DeploymentSet.java:resolveDependencies:3622)
+<<<===dependencyStr IS$Local$IS$Local$ACL$Anonymous$ACL$Anonymous$$null$null===>
+
+[DEBUG] [23 Jan 2017 15:44:21,561] (DeploymentSet.java:resolveDependencies:3589)
+===>>> type = ACL<<<======>>> dependencyStr = IS$Local$IS$Local$ACL$Default$ACL$Default$$null$null<<<===
+
+[DEBUG] [23 Jan 2017 15:44:21,577] (DeploymentSet.java:resolveDependencies:3622)
+<<<===dependencyStr IS$Local$IS$Local$ACL$Default$ACL$Default$$null$null===>
+
+[DEBUG] [23 Jan 2017 15:44:21,987] (DeploymentSet.java:getUnResolvedDependencies:3770)
+Getting Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:22,093] (DeploymentSet.java:getUnResolvedDependencies:3944)
+Retrieved Unresolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:22,108] (DeploymentSet.java:resolveDependencies:3758)
+Resolved Dependencies for the Deployment Set myDeploymentSet of type IS for project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:23,497] (DeploymentMap.java:create:78)
+Creating Deployment Map myDeploymentMap in Project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:23,577] (DeploymentMap.java:create:98)
+Successfully created Deployment Map myDeploymentMap in Project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:23,695] (DeploymentCandidate.java:create:91)
+Creating Deployment Candidate myDeployment with Build myBuild and Deployment Map myDeploymentMap for project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:23,777] (DeploymentCandidate.java:create:123)
+Successfully created Deployment Candidate myDeployment with Build myBuild and Deployment Map myDeploymentMap for project Remote_Server
+
+[ INFO] [23 Jan 2017 15:44:24,708] (XMLReport.java:runExample:41)
+Started Generating Report ... 
+
+[ INFO] [23 Jan 2017 15:44:24,716] (XMLReport.java:createDOMTree:88)
+Info Messages Size = 16
+
+[ INFO] [23 Jan 2017 15:44:24,721] (XMLReport.java:createDOMTree:89)
+Error Messages Size = 0
+
+[ INFO] [23 Jan 2017 15:44:24,797] (XMLReport.java:runExample:44)
+Generated Automation Test Suite Report file successfully.
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Build">
+<buildName>myBuild</buildName>
+<projectDescription/>
+<buildDesc/>
+<startTime>Fri Jan 13 12:51:45 IST 2017</startTime>
+<projectName>Deployer_CLI</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-13 12:51:54 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0051] Extracted IS package "BstarTest"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="Deployer_CLI_myBuild_1484292108983" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 12:51:54 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0052] Extracted IS package "BstarTest" node ACLs</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="packageName" type="PackageNodeACL"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 12:51:55 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0051] Extracted IS package "Acme"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet1" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="Deployer_CLI_myBuild_1484292114796" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 12:51:55 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0052] Extracted IS package "Acme" node ACLs</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet1" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="packageName" type="PackageNodeACL"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 12:52:19 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0051] Extracted IS package "BstarCanonical"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet1" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="Deployer_CLI_myBuild_1484292115327" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 12:52:21 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0052] Extracted IS package "BstarCanonical" node ACLs</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet1" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="packageName" type="PackageNodeACL"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 12:52:22 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0048] Extracted IS ACL "Anonymous"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet1" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="Anonymous" type="ACLGroup"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 12:52:22 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0048] Extracted IS ACL "Default"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet1" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="Default" type="ACLGroup"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-13 12:52:22 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0048] Extracted IS ACL "Internal"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet1" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="Internal" type="ACLGroup"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-13 12:52:23 IST</endTime>
+</Report>

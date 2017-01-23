@@ -1,0 +1,10 @@
+#
+#Wed Jan 11 11:58:31 IST 2017
+Status=1
+Name=Cli_deployCheckpoint
+DeploymentCandidate=myDeployment
+Timestamp=1484116087143
+SizeOnDisk=1609770
+Project=Cli_deploy
+Description=TBD
+User=Administrator

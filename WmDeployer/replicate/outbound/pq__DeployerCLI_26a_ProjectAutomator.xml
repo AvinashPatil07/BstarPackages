@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><DeployerSpec exitOnError="true" sourceType="Runtime">
+<DeployerServer>
+<host>${machinename}:${isport}</host>
+<user>${Username}</user>
+<pwd>${Password}</pwd>
+<!--<pwdHandle>$(PasswordHandle)</pwdHandle>-->
+</DeployerServer>
+<Environment>
+<IS>
+<isalias name="Local">
+<host>LP-R901F8E2</host>
+<port>5555</port>
+<user>Administrator</user>
+<pwd>${Password}</pwd>
+<!--<pwdHandle>$(PasswordHandle)</pwdHandle>-->
+<useSSL>false</useSSL>
+<version>9.12</version>
+<installDeployerResource>false</installDeployerResource>
+<Test>false</Test>
+<executeACL>Internal</executeACL>
+</isalias>
+<isalias name="Bibin_remote">
+<host>LP-R9030AGM</host>
+<port>5555</port>
+<user>Administrator</user>
+<pwd>${Password}</pwd>
+<!--<pwdHandle>$(PasswordHandle)</pwdHandle>-->
+<useSSL>false</useSSL>
+<version>9.12</version>
+<installDeployerResource>false</installDeployerResource>
+<Test>false</Test>
+<executeACL>Internal</executeACL>
+</isalias>
+</IS>
+</Environment>
+<Projects projectPrefix="">
+<Project description="" name="Deployer_CLI" overwrite="false" type="Runtime">
+<DeploymentSet defaultDependencyAction="fulladd" description="" mode="Deploy" name="myDeploymentSet" otherRegExp="" packageRegExp="" srcAlias="Local" type="IS">
+<Package name="BstarTest" srcAlias="Local"/>
+</DeploymentSet>
+<DeploymentSet defaultDependencyAction="fulladd" description="" mode="Deploy" name="myDeploymentSet1" otherRegExp="" packageRegExp="" srcAlias="Local" type="IS">
+<ACL name="Anonymous" srcAlias="Local"/>
+<ACL name="Default" srcAlias="Local"/>
+<ACL name="Internal" srcAlias="Local"/>
+<Package name="Acme" srcAlias="Local"/>
+<Package name="BstarCanonical" srcAlias="Local"/>
+</DeploymentSet>
+<DeploymentBuild description="" name="myBuild"/>
+<DeploymentBuild description="" name="MyCliBuild"/>
+<DeploymentMap description="" name="myDeploymentMap"/>
+<MapSetMapping mapName="myDeploymentMap" setName="myDeploymentSet">
+<alias>Bibin_remote</alias>
+</MapSetMapping>
+<MapSetMapping mapName="myDeploymentMap" setName="myDeploymentSet1"/>
+<DeploymentMap description="" name="myDeploymentMap1"/>
+<MapSetMapping mapName="myDeploymentMap1" setName="myDeploymentSet"/>
+<MapSetMapping mapName="myDeploymentMap1" setName="myDeploymentSet1">
+<alias>Bibin_remote</alias>
+</MapSetMapping>
+<DeploymentCandidate buildName="MyCliBuild" description="" mapName="myDeploymentMap" name="MyCliDeplymentcand"/>
+<DeploymentCandidate buildName="myBuild" description="" mapName="myDeploymentMap1" name="myDeploymentnew"/>
+</Project>
+</Projects>
+</DeployerSpec>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:BusinessServiceException</value>
+    <value name="node_pkg">BstarTest</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">c4cddade9045877115920c06299</value>
+    <value name="originURI">file://D:\Users\kundialp\Projects\Sourcing\Purchase Order\JDE WSDL\ProcurementManager.wsdl</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns0:BusinessServiceException</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://oracle.e1.bssv.JP430000/</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">BstarTest.webServiceConnectors.consumers.procurementManager_.docTypes:docTypeRef_ns0_BusinessServiceException</value>
+      </record>
+    </array>
+    <value name="modifiable">false</value>
+  </record>
+</Values>

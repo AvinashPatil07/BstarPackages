@@ -1,0 +1,19 @@
+2017-01-13 12:51:45 IST Initiating Progress Report for the Build operation
+2017-01-13 12:51:45 IST Starting deployer build for project Deployer_CLI
+2017-01-13 12:51:48 IST  Processing deployment set myDeploymentSet
+2017-01-13 12:51:48 IST Processing IS source server Local
+2017-01-13 12:51:48 IST Initiating add operation on package BstarTest to the build
+2017-01-13 12:51:54 IST Done with the add operation on package BstarTest to the build
+2017-01-13 12:51:54 IST Completed processing IS source server Local
+2017-01-13 12:51:54 IST Completed Processing Of deployment set myDeploymentSet
+2017-01-13 12:51:54 IST  Processing deployment set myDeploymentSet1
+2017-01-13 12:51:54 IST Processing IS source server Local
+2017-01-13 12:51:54 IST Initiating add operation on package Acme to the build
+2017-01-13 12:51:55 IST Done with the add operation on package Acme to the build
+2017-01-13 12:51:55 IST Initiating add operation on package BstarCanonical to the build
+2017-01-13 12:52:22 IST Done with the add operation on package BstarCanonical to the build
+2017-01-13 12:52:22 IST Initiating add operation on acls Anonymous, Default, Internal
+2017-01-13 12:52:22 IST Done with the add operation on acls Anonymous, Default, Internal
+2017-01-13 12:52:22 IST Completed processing IS source server Local
+2017-01-13 12:52:22 IST Completed Processing Of deployment set myDeploymentSet1
+2017-01-13 12:52:23 IST Completed generating Progress Report for the Build operation.

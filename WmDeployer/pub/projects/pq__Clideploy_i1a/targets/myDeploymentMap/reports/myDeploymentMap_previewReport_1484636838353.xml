@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="1" type="Simulate">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<buildName>myBuild</buildName>
+<projectDescription/>
+<startTime>2017-01-17 12:37:18 IST</startTime>
+<projectName>Cli_deploy</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-17 12:37:18 IST" type="WARNING">
+<messagebody>[DEP.0005.0248] The following target dependency(ies) was ignored: 
+"Anonymous, Default'."</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="" type=""/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 12:37:19 IST" type="ADD">
+<messagebody>[DEP.0005.0178] The Package: "BstarCanonical", would be put into the inbound directory.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="BstarCanonical" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 12:37:19 IST" type="UPDATE">
+<messagebody>[DEP.0005.0339] The Package: "BstarCanonical", would be activated.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="BstarCanonical" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-17 12:37:19 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1236] There is no UM connected to target: "Bibin_remote".  Thus, any Publishable Document Types cannot be synchronized.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_remote"/>
+<asset name="" type="Package"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-17 12:37:20 IST</endTime>
+</Report>

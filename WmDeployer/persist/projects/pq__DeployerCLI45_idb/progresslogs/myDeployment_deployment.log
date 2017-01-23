@@ -1,0 +1,30 @@
+2017-01-17 15:58:39 IST [DEP.0005.1176] Initiating the progress report for the deploy operation.
+2017-01-17 15:58:39 IST [DEP.0008.0011] Initiating the progress report for the checkpoint operation.
+2017-01-17 15:58:39 IST [DEP.0008.0017] Deleting previously generated checkpoints for deployment candidate myDeployment.
+2017-01-17 15:58:39 IST [DEP.0008.0019] Deleting checkpoints previously generated for Bibin_remote.
+2017-01-17 15:58:40 IST [DEP.0008.0020] Successfully deleted checkpoints generated for Bibin_remote.
+2017-01-17 15:58:40 IST [DEP.0008.0014] Generating checkpoint at Bibin_remote.
+2017-01-17 15:59:08 IST [DEP.0008.0016] Successfully generated checkpoint for target server Bibin_remote.
+2017-01-17 15:59:08 IST [DEP.0008.0012] Completing the progress report for the checkpoint operation.
+2017-01-17 15:59:08 IST [DEP.0005.1163] Starting deliver operation for deployment candidate myDeployment.
+2017-01-17 15:59:08 IST [DEP.0005.1165] Deleting previously delivered artifacts.
+2017-01-17 15:59:08 IST [DEP.0005.1169] Deleting artifacts previously delivered to Bibin_remote.
+2017-01-17 15:59:09 IST [DEP.0005.1170] Deleted artifacts previously delivered to Bibin_remote successfully.
+2017-01-17 15:59:09 IST [DEP.0005.1159] Delivering artifacts to Bibin_remote.
+2017-01-17 15:59:15 IST [DEP.0005.1202] Successfully delivered BstarCanonical to Bibin_remote.
+2017-01-17 15:59:15 IST [DEP.0005.1202] Successfully delivered BstarBPM to Bibin_remote.
+2017-01-17 15:59:17 IST [DEP.0005.1202] Successfully delivered BstarTest to Bibin_remote.
+2017-01-17 15:59:17 IST [DEP.0005.1162] Finished delivering artifacts to Bibin_remote.
+2017-01-17 15:59:17 IST [DEP.0005.1160] Artifacts delivered successfully for deployment candidate myDeployment.
+2017-01-17 15:59:17 IST [DEP.0005.1207] Starting delete assets operation for deployment candidate myDeployment.
+2017-01-17 15:59:17 IST [DEP.0005.1209] Deleting assets.
+2017-01-17 15:59:17 IST [DEP.0005.1208] Assets deleted successfully for deployment candidate myDeployment.
+2017-01-17 15:59:17 IST [DEP.0005.1171] Starting activate operation for myDeployment.
+2017-01-17 15:59:17 IST [DEP.0005.1174] Starting activate operation for Bibin_remote.
+2017-01-17 16:00:49 IST [DEP.0005.1153] The activation of artifacts on the Bibin_remote target server failed. For details, check the logs of the target server.
+2017-01-17 16:00:49 IST [DEP.0005.1172] Completed activate operation for myDeployment.
+2017-01-17 16:00:49 IST [DEP.0005.1178] Initiating the progress report for the rollback operation.
+2017-01-17 16:00:49 IST [DEP.0005.1197] Starting Rollback operation for Bibin_remote
+2017-01-17 16:02:24 IST [DEP.0005.1199] Rollback on the target server Bibin_remote failed. Please check the target servers logs for details.
+2017-01-17 16:02:24 IST [DEP.0005.1179] Completing the progress report for the rollback operation.
+2017-01-17 16:02:24 IST [DEP.0005.1177] Completing the progress report for the deploy operation.

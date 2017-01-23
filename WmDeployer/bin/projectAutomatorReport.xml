@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report>
+    <Messages type="INFO">
+        <message deploymentProject="">Deployer Server running on host:port LP-R901F8E2:5555</message>
+        <message deploymentProject="">Deployer Server authenticated using user Administrator</message>
+        <message deploymentProject="">Deleted remote server Local</message>
+        <message deploymentProject="">Successfully created Integration Server alias Local</message>
+        <message deploymentProject="">Deleted remote server Bibin_remote</message>
+        <message deploymentProject="">Successfully created Integration Server alias Bibin_remote</message>
+        <message deploymentProject="">Listed project on Deployer succesfully</message>
+        <message deploymentProject="">Listed project on Deployer succesfully</message>
+        <message deploymentProject="">Created project Remote_Server succesfully</message>
+        <message deploymentProject="">Created Set myDeploymentSet of type IS for project Remote_Server</message>
+        <message deploymentProject="">Updated Source Server Aliases Local, on Set myDeploymentSet of type IS for project Remote_Server</message>
+        <message deploymentProject="">Added packages Local$BstarBPM$PACKAGE_INCL, to Deployment Set myDeploymentSet of type IS for project Remote_Server</message>
+        <message deploymentProject="">Successfully created build myBuild in project Remote_Server</message>
+        <message deploymentProject="">Successfully created map myDeploymentMap in project Remote_Server</message>
+        <message deploymentProject="">Added server aliases to the deployment map myDeploymentMap in the project Remote_Server</message>
+        <message deploymentProject="">Successfully created deployment candidate myDeployment with build myBuild and map myDeploymentMap in project Remote_Server</message>
+    </Messages>
+    <Messages type="ERROR"/>
+</Report>

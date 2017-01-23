@@ -1,0 +1,10 @@
+#
+#Fri Jan 13 12:56:55 IST 2017
+Status=3
+Name=Deployer_CLICheckpoint
+DeploymentCandidate=myDeploymentnew
+Timestamp=1484292414251
+SizeOnDisk=5413
+Project=Deployer_CLI
+Description=TBD
+User=Administrator
