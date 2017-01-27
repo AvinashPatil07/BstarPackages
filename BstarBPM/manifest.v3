@@ -10,4 +10,16 @@
   <null name="requires"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
+  <array name="patch_history" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">12_myBuild_1485326563918</value>
+      <value name="version">1.0</value>
+      <value name="build">${env.BUILD_NUMBER}</value>
+      <value name="description">12_</value>
+      <value name="time">2017-01-25 12:12:44 IST</value>
+      <value name="jvm_version">1.8.0_101</value>
+      <null name="publisher"/>
+      <value name="patch_nums"></value>
+    </record>
+  </array>
 </Values>
