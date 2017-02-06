@@ -3,15 +3,24 @@
  <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
   <void property="auditReports">
    <void method="add">
-    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaAcme_tya\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1485173136643.xml</string>
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaAcme_tya\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1485184015143.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaAcme_tya\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1485241735270.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaAcme_tya\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1485242942476.xml</string>
    </void>
   </void>
   <void property="buildName">
-   <string>Siva_Acme_1485173134132.build</string>
+   <string>Siva_Acme_1485184010918.build</string>
   </void>
   <void property="checkpointReports">
    <void method="add">
-    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaAcme_tya\checkpoints\myDeployment\pq__SivaAcmeCheckpoint_yqb\reports\CheckpointReport_1485173134759.xml</string>
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaAcme_tya\checkpoints\myDeployment\pq__SivaAcmeCheckpoint_yqb\reports\CheckpointReport_1485184011434.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaAcme_tya\checkpoints\myDeployment\pq__SivaAcmeCheckpoint_yqb\reports\CheckpointReport_1485242931616.xml</string>
    </void>
   </void>
   <void property="checkpointed">
@@ -21,7 +30,7 @@
    <boolean>true</boolean>
   </void>
   <void property="deploymentId">
-   <string>7e7ed162-f6a8-4708-a667-9c95dec8ba31</string>
+   <string>6a6b51d4-e8f3-405a-995b-f5dee6538ade</string>
   </void>
   <void property="deploymentMapName">
    <string>myDeploymentMap</string>

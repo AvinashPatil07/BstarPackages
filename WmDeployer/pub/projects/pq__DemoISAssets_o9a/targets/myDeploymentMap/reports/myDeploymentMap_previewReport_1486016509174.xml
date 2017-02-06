@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Simulate">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<buildName>myBuild</buildName>
+<projectDescription/>
+<startTime>2017-02-02 11:51:49 IST</startTime>
+<projectName>Demo_ISAssets</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-02-02 11:51:50 IST" type="UPDATE">
+<messagebody>[DEP.0005.0441] The file: "default/config/jndi/jndi_DEFAULT_IS_JNDI_PROVIDER.properties", would be overwritten.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_Remote"/>
+<asset name="default/config/jndi/jndi_DEFAULT_IS_JNDI_PROVIDER.properties" type="File"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-02 11:51:50 IST" type="UPDATE">
+<messagebody>[DEP.0005.0441] The file: "default/config/jms.cnf", would be overwritten.</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<targetserver name="Bibin_Remote"/>
+<asset name="default/config/jms.cnf" type="File"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-02-02 11:51:51 IST</endTime>
+</Report>

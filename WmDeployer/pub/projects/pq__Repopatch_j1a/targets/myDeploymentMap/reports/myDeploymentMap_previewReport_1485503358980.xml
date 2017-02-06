@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="0" type="Simulate">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-01-27 13:19:18 IST</startTime>
+<projectName>Repo_patch</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-01-27 13:19:19 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1168] Deleted previously delivered artifacts successfully for IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-27 13:19:24 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1164] Artifacts delivered successfully to IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+</attributes>
+</message>
+<message timeStamp="2017-01-27 13:19:31 IST" type="MESSAGE">
+<messagebody>Composite type ispackage does not support simulation.</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="BstarBPM" type="ispackage"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-01-27 13:19:31 IST</endTime>
+</Report>

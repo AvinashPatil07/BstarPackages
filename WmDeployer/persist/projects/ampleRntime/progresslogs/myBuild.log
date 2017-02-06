@@ -1,0 +1,9 @@
+2017-02-06 12:42:09 IST Initiating Progress Report for the Build operation
+2017-02-06 12:42:09 IST Starting deployer build for project ampleRntime
+2017-02-06 12:42:10 IST  Processing deployment set myDeploymentSet
+2017-02-06 12:42:10 IST Processing IS source server Local
+2017-02-06 12:42:10 IST Initiating add operation on package BstarTest to the build
+2017-02-06 12:42:14 IST Done with the add operation on package BstarTest to the build
+2017-02-06 12:42:14 IST Completed processing IS source server Local
+2017-02-06 12:42:14 IST Completed Processing Of deployment set myDeploymentSet
+2017-02-06 12:42:15 IST Completed generating Progress Report for the Build operation.

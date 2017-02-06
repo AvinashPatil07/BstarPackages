@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="0" type="Checkpoint">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-02-03 16:55:36 IST</startTime>
+<projectName>UmAsset</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-02-03 16:55:37 IST" type="MESSAGE">
+<messagebody>[DEP.0008.0021] Successfully deleted checkpoints for UniversalMessaging.</messagebody>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-03 16:55:37 IST" type="SUCCESS">
+<messagebody/>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+<asset name="sampleTopic" type="Channel"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-03 16:55:37 IST" type="SUCCESS">
+<messagebody/>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+<asset name="sampleQueur" type="UMQueue"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-03 16:55:37 IST" type="SUCCESS">
+<messagebody/>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+<asset name="Interface:nhp0" type="Interface"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-03 16:55:37 IST" type="SUCCESS">
+<messagebody/>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+<asset name="pokala@127.0.0.1" type="RealmAcl"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-03 16:55:37 IST" type="SUCCESS">
+<messagebody/>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+<asset name="RealmAcl:*@*" type="RealmAcl"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-03 16:55:38 IST" type="SUCCESS">
+<messagebody/>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+<asset name="RealmAcl:Everyone" type="RealmAcl"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-03 16:55:38 IST" type="SUCCESS">
+<messagebody/>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+<asset name="RealmConfig:umserver" type="RealmConfig"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-03 16:55:39 IST" type="SUCCESS">
+<messagebody/>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+<asset name="sampleTopic" type="JNDITopic"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-03 16:55:41 IST" type="SUCCESS">
+<messagebody/>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+<asset name="sampleQueur" type="JNDIQueue"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-02-03 16:55:42 IST</endTime>
+</Report>

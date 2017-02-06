@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="1" type="Deploy">
+<depCandidate>SivaTestProj_DC</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-02-01 11:18:30 IST</startTime>
+<projectName>SivaTestProj_proj</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-02-01 11:18:31 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1168] Deleted previously delivered artifacts successfully for IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:18:39 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1164] Artifacts delivered successfully to IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:18:39 IST" type="WARNING">
+<messagebody>JVM: "1.8.0_101 (52.0)" of the target Integration Server for installing package: "SivaAcme" is older than the recommended JVM: "1.8.0_111".</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="SivaAcme" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:18:41 IST" type="SUCCESS">
+<messagebody>SivaAcme package installed and activated. The original package has been moved to package recovery area. Package has been moved to archive area as SivaAcme.zip_20170201111841.</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="SivaAcme" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:18:41 IST" type="WARNING">
+<messagebody>JVM: "1.8.0_101 (52.0)" of the target Integration Server for installing package: "Default" is older than the recommended JVM: "1.8.0_111".</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="Default" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:18:42 IST" type="SUCCESS">
+<messagebody>Default package installed and activated. The original package has been moved to package recovery area. Package has been moved to archive area as Default.zip_20170201111842.</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="Default" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:18:42 IST" type="WARNING">
+<messagebody>JVM: "1.8.0_101 (52.0)" of the target Integration Server for installing package: "BstarCanonical" is older than the recommended JVM: "1.8.0_111".</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="BstarCanonical" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:19:50 IST" type="SUCCESS">
+<messagebody>BstarCanonical package installed and activated. The original package has been moved to package recovery area. Package has been moved to archive area as BstarCanonical.zip_20170201111950.</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="BstarCanonical" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:19:50 IST" type="WARNING">
+<messagebody>JVM: "1.8.0_101 (52.0)" of the target Integration Server for installing package: "BstarBPM" is older than the recommended JVM: "1.8.0_111".</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="BstarBPM" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:19:51 IST" type="SUCCESS">
+<messagebody>BstarBPM package installed and activated. The original package has been moved to package recovery area. Package has been moved to archive area as BstarBPM.zip_20170201111951.</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="BstarBPM" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:19:52 IST" type="WARNING">
+<messagebody>JVM: "1.8.0_101 (52.0)" of the target Integration Server for installing package: "BstarTest" is older than the recommended JVM: "1.8.0_111".</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="BstarTest" type="ispackage"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-01 11:20:01 IST" type="SUCCESS">
+<messagebody>BstarTest package installed and activated. The original package has been moved to package recovery area. Package has been moved to archive area as BstarTest.zip_20170201112001.</messagebody>
+<attributes>
+<targetserver name="Bibin_mc"/>
+<asset name="BstarTest" type="ispackage"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-02-01 11:20:01 IST</endTime>
+</Report>

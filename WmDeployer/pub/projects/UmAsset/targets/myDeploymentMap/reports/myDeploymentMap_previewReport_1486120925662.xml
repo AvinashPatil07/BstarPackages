@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="0" type="Simulate">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-02-03 16:52:05 IST</startTime>
+<projectName>UmAsset</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-02-03 16:52:05 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1168] Deleted previously delivered artifacts successfully for UniversalMessaging.</messagebody>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-02-03 16:52:05 IST</endTime>
+</Report>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="auditReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__Repopatchdeploy_tibf\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1485762692403.xml</string>
+   </void>
+  </void>
+  <void property="buildName">
+   <string>Repo_patch_deploy_1485762690063.build</string>
+  </void>
+  <void property="checkpointReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__Repopatchdeploy_tibf\checkpoints\myDeployment\pq__RepopatchdeployCheckpoint_y9bf\reports\CheckpointReport_1485762690544.xml</string>
+   </void>
+  </void>
+  <void property="checkpointed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deployed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deploymentId">
+   <string>84c65c7b-be5e-49a2-b8d1-a29ce0d21b02</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>myDeploymentMap</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="name">
+   <string>myDeployment</string>
+  </void>
+  <void property="projectName">
+   <string>Repo_patch_deploy</string>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

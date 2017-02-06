@@ -1,0 +1,13 @@
+2017-02-02 11:49:43 IST Initiating Progress Report for the Build operation
+2017-02-02 11:49:43 IST Starting deployer build for project Demo_ISAssets
+2017-02-02 11:49:43 IST  Processing deployment set myDeploymentSet
+2017-02-02 11:49:43 IST Processing IS source server Local
+2017-02-02 11:49:44 IST Initiating add operation on files default\config\jndi\jndi_DEFAULT_IS_JNDI_PROVIDER.properties, default\config\jms.cnf
+2017-02-02 11:49:44 IST Added file default\config\jndi\jndi_DEFAULT_IS_JNDI_PROVIDER.properties
+2017-02-02 11:49:44 IST Added file default\config\jms.cnf
+2017-02-02 11:49:44 IST Done with the add operation on files default\config\jndi\jndi_DEFAULT_IS_JNDI_PROVIDER.properties, default\config\jms.cnf
+2017-02-02 11:49:44 IST Completed processing IS source server Local
+2017-02-02 11:49:44 IST Completed Processing Of deployment set myDeploymentSet
+2017-02-02 11:49:44 IST  Processing deployment set myDeploymentSet1
+2017-02-02 11:49:44 IST Completed Processing Of deployment set myDeploymentSet1
+2017-02-02 11:49:44 IST Completed generating Progress Report for the Build operation.

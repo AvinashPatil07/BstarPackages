@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><DeployerSpec exitOnError="true" sourceType="Runtime">
+<DeployerServer>
+<host>${machinename}:${isport}</host>
+<user>${Username}</user>
+<pwd>${Password}</pwd>
+<!--<pwdHandle>$(PasswordHandle)</pwdHandle>-->
+</DeployerServer>
+<Environment>
+<IS>
+<isalias name="Local">
+<host>LP-R901F8E2</host>
+<port>5555</port>
+<user>Administrator</user>
+<pwd>${Password}</pwd>
+<!--<pwdHandle>$(PasswordHandle)</pwdHandle>-->
+<useSSL>false</useSSL>
+<version>9.12</version>
+<installDeployerResource>false</installDeployerResource>
+<Test>false</Test>
+<executeACL>Internal</executeACL>
+</isalias>
+<isalias name="Bibin_Remote">
+<host>LP-R9030AGM</host>
+<port>5555</port>
+<user>Administrator</user>
+<pwd>${Password}</pwd>
+<!--<pwdHandle>$(PasswordHandle)</pwdHandle>-->
+<useSSL>false</useSSL>
+<version>9.12</version>
+<installDeployerResource>false</installDeployerResource>
+<Test>false</Test>
+<executeACL>Internal</executeACL>
+</isalias>
+</IS>
+</Environment>
+<Projects projectPrefix="">
+<Project description="" name="Demo_ISAssets" overwrite="false" type="Runtime">
+<DeploymentSet defaultDependencyAction="fulladd" description="" mode="Deploy" name="myDeploymentSet" otherRegExp="" packageRegExp="" srcAlias="Local" type="IS">
+<File name="jndi_DEFAULT_IS_JNDI_PROVIDER.properties" srcAlias="Local" topDir="default/config/jndi"/>
+<File name="jms.cnf" srcAlias="Local" topDir="default/config"/>
+</DeploymentSet>
+<DeploymentSet defaultDependencyAction="fulladd" description="" mode="Deploy" name="myDeploymentSet1" otherRegExp="" packageRegExp="" type="Broker"/>
+<DeploymentBuild description="" name="myBuild"/>
+<DeploymentMap description="" name="myDeploymentMap"/>
+<MapSetMapping mapName="myDeploymentMap" setName="myDeploymentSet">
+<alias>Bibin_Remote</alias>
+</MapSetMapping>
+<MapSetMapping mapName="myDeploymentMap" setName="myDeploymentSet1"/>
+<DeploymentCandidate buildName="myBuild" description="" mapName="myDeploymentMap" name="myDeployment"/>
+</Project>
+</Projects>
+</DeployerSpec>

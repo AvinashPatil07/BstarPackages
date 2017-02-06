@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Build">
+<buildName>myBuild</buildName>
+<projectDescription/>
+<buildDesc/>
+<startTime>Thu Feb 02 11:49:43 IST 2017</startTime>
+<projectName>Demo_ISAssets</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-02-02 11:49:44 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0091] Extracted file "default/config/jndi/jndi_DEFAULT_IS_JNDI_PROVIDER.properties"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="default/config/jndi/jndi_DEFAULT_IS_JNDI_PROVIDER.properties" type="Files"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-02 11:49:44 IST" type="EXTRACT">
+<messagebody>[DEP.0001.0091] Extracted file "default/config/jms.cnf"</messagebody>
+<attributes>
+<set mode="Deploy" name="myDeploymentSet" type="IS"/>
+<sourceserver name="Local"/>
+<asset name="default/config/jms.cnf" type="Files"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-02-02 11:49:44 IST</endTime>
+</Report>

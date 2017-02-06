@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="auditReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\UmAsset\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1486121142333.xml</string>
+   </void>
+  </void>
+  <void property="buildName">
+   <string>UmAsset_1486120924936.build</string>
+  </void>
+  <void property="checkpointReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\UmAsset\checkpoints\myDeployment\UmAssetCheckpoint\reports\CheckpointReport_1486120930537.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\UmAsset\checkpoints\myDeployment\UmAssetCheckpoint\reports\CheckpointReport_1486121136954.xml</string>
+   </void>
+  </void>
+  <void property="deploymentId">
+   <string>b5eba4c7-0d65-44e3-a58c-0d7686cd8e72</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>myDeploymentMap</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="name">
+   <string>myDeployment</string>
+  </void>
+  <void property="preDeployReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\UmAsset\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1486120925662.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\UmAsset\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1486121131594.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\UmAsset\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1486122534279.xml</string>
+   </void>
+  </void>
+  <void property="projectName">
+   <string>UmAsset</string>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

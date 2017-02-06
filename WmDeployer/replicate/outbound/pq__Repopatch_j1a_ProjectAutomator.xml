@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><DeployerSpec exitOnError="true" sourceType="Repository">
+<DeployerServer>
+<host>LP-R901F8E2:5555</host>
+<user>Administrator</user>
+<pwd>manage</pwd>
+<!--<pwdHandle>$(PasswordHandle)</pwdHandle>-->
+</DeployerServer>
+<Environment>
+<Repository>
+<repalias name="Git_Repo">
+<type>FlatFile</type>
+<urlOrDirectory>D:\demo</urlOrDirectory>
+<Test>false</Test>
+</repalias>
+</Repository>
+<IS>
+<isalias name="Bibin_mc">
+<host>LP-R9030AGM</host>
+<port>5555</port>
+<user>Administrator</user>
+<pwd>${Password}</pwd>
+<!--<pwdHandle>$(PasswordHandle)</pwdHandle>-->
+<useSSL>false</useSSL>
+<version>9.12</version>
+<installDeployerResource>false</installDeployerResource>
+<Test>false</Test>
+<executeACL>Internal</executeACL>
+</isalias>
+</IS>
+</Environment>
+<Projects projectPrefix="">
+<Project description="" name="Repo_patch_deploy" overwrite="false" type="Repository">
+<ProjectProperties>
+<Property name="projectLocking">false</Property>
+<Property name="concurrentDeployment">true</Property>
+<Property name="ignoreMissingDependencies">false</Property>
+<Property name="isTransactionalDeployment">true</Property>
+</ProjectProperties>
+<DeploymentSet autoResolve="full" description="" name="myDeploymentSet" srcAlias="Git_Repo">
+<Component componentType="isflowservice" compositeName="BstarBPM" name="BstarBPM.Services:Bibinpatch" srcAlias="Git_Repo" type="IS"/>
+</DeploymentSet>
+<DeploymentMap description="" name="myDeploymentMap"/>
+<MapSetMapping mapName="myDeploymentMap" setName="myDeploymentSet">
+<alias type="IS">Bibin_mc</alias>
+</MapSetMapping>
+<DeploymentCandidate description="" mapName="myDeploymentMap" name="myDeployment"/>
+</Project>
+</Projects>
+</DeployerSpec>

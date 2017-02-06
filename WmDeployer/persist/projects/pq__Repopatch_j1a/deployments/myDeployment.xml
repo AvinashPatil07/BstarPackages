@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="buildName">
+   <string>Repo_patch_1485337337540.build</string>
+  </void>
+  <void property="deploymentId">
+   <string>87fa9780-59f7-42bf-b5b1-e23089f439df</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>myDeploymentMap</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="name">
+   <string>myDeployment</string>
+  </void>
+  <void property="preDeployReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__Repopatch_j1a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1485337338037.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__Repopatch_j1a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1485503358980.xml</string>
+   </void>
+  </void>
+  <void property="projectName">
+   <string>Repo_patch</string>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

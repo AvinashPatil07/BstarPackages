@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="beginTimestamp">
+   <string>2017-02-02 11:51:49 IST</string>
+  </void>
+  <void property="buildName">
+   <string>myBuild</string>
+  </void>
+  <void property="deploymentId">
+   <string>c0ac6487-5c9c-43d6-93d5-a6629267ffb9</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>myDeploymentMap</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="dummyReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__DemoISAssets_o9a\targets\myDeploymentMap\reports\deploySimulateRollback.xsl</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__DemoISAssets_o9a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1486016509174.html</string>
+   </void>
+  </void>
+  <void property="name">
+   <string>myDeployment</string>
+  </void>
+  <void property="preDeployReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__DemoISAssets_o9a\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1486016509174.xml</string>
+   </void>
+  </void>
+  <void property="projectName">
+   <string>Demo_ISAssets</string>
+  </void>
+  <void property="user">
+   <string>Administrator</string>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

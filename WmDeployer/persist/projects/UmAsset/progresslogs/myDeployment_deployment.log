@@ -1,0 +1,21 @@
+2017-02-03 17:18:53 IST [DEP.0005.1180] Initiating the progress report for the simulate operation.
+2017-02-03 17:18:54 IST [DEP.0005.1163] Starting deliver operation for deployment candidate myDeployment.
+2017-02-03 17:18:54 IST [DEP.0005.1165] Deleting previously delivered artifacts.
+2017-02-03 17:18:54 IST [DEP.0005.1169] Deleting artifacts previously delivered to Bibin_Remote.
+2017-02-03 17:18:54 IST [DEP.0005.1169] Deleting artifacts previously delivered to Bibin_Remote.
+2017-02-03 17:18:54 IST [DEP.0005.1170] Deleted artifacts previously delivered to Bibin_Remote successfully.
+2017-02-03 17:18:54 IST [DEP.0005.1170] Deleted artifacts previously delivered to Bibin_Remote successfully.
+2017-02-03 17:18:54 IST [DEP.0005.1159] Delivering artifacts to Bibin_Remote.
+2017-02-03 17:18:54 IST [DEP.0005.1159] Delivering artifacts to Bibin_Remote.
+2017-02-03 17:18:54 IST [DEP.0005.1202] Successfully delivered BstarBPM to Bibin_Remote.
+2017-02-03 17:18:54 IST [DEP.0005.1162] Finished delivering artifacts to Bibin_Remote.
+2017-02-03 17:18:55 IST [DEP.0005.1202] Successfully delivered numexport to Bibin_Remote.
+2017-02-03 17:18:55 IST [DEP.0005.1162] Finished delivering artifacts to Bibin_Remote.
+2017-02-03 17:18:55 IST [DEP.0005.1160] Artifacts delivered successfully for deployment candidate myDeployment.
+2017-02-03 17:18:55 IST [DEP.0005.1171] Starting activate operation for myDeployment.
+2017-02-03 17:18:55 IST [DEP.0005.1174] Starting activate operation for Bibin_Remote.
+2017-02-03 17:18:55 IST [DEP.0005.1175] Activated the deployment on Bibin_Remote successfully.
+2017-02-03 17:18:55 IST [DEP.0005.1174] Starting activate operation for Bibin_Remote.
+2017-02-03 17:18:56 IST [DEP.0005.1175] Activated the deployment on Bibin_Remote successfully.
+2017-02-03 17:18:56 IST [DEP.0005.1172] Completed activate operation for myDeployment.
+2017-02-03 17:18:56 IST [DEP.0005.1181] Completing the progress report for the simulate operation.
