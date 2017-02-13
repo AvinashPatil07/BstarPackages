@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:sample="http://sample" name="BstarConnections" runtimeVersion="9.12.0.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS">
+<implementation.generic type="ispackage"/>
+<property displayName="Activate Package On Install" name="activatePkgOnInstall">
+<value>true</value>
+</property>
+<property displayName="Archive Package On Install" name="archivePkgOnInstall">
+<value>true</value>
+</property>
+<property displayName="Compile Package On Install" name="compilePackage">
+<value>true</value>
+</property>
+<property displayName="Fragment Package On Install" name="fragPackage">
+<value>true</value>
+</property>
+<property displayName="Delete ACLs for the assets from the target Integration Server" name="clearACLs">
+<value>false</value>
+</property>
+<property displayName="disallowActivePackageInstall" name="disallowActivePackageInstall">
+<value>false</value>
+</property>
+<property displayName="packageExecutionCheck" name="packageExecutionCheck">
+<value>0</value>
+</property>
+<property displayName="Suspend Triggers During Deployment" name="suspendTriggersDuringDeploy">
+<value>false</value>
+</property>
+<property displayName="Synchronize Document Types To Broker During Deployment" name="syncDocTypesToBroker">
+<value>true</value>
+</property>
+<asset displayName="BstarConnections" name="ISPackage.BstarConnections">
+<implementation.generic type="ispackage"/>
+</asset>
+<asset displayName="BstarConnections.SystemConnections:BstarSyConnection" name="BstarConnections.SystemConnections.BstarSyConnection">
+<implementation.generic type="artconnection"/>
+<property displayName="State After Deployment" many="false" name="art.deployment.state">
+<value>disable</value>
+</property>
+<property many="false" name="transactionType">
+<value>LOCAL_TRANSACTION</value>
+</property>
+<property many="false" name="datasourceClass">
+<value>oracle.jdbc.pool.OracleDataSource</value>
+</property>
+<property many="false" name="serverName">
+<value>f2-apac-eai-wm.c6hjaqr7d297.ap-southeast-2.rds.amazonaws.com</value>
+</property>
+<property many="false" name="user">
+<value>Administrator</value>
+</property>
+<property isSecure="true" many="false" name="password">
+<value>{AES}aYrXC43dTWsDUHRWG5mhTA==</value>
+</property>
+<property many="false" name="databaseName">
+<value>APACWMDB</value>
+</property>
+<property many="false" name="portNumber">
+<value>1521</value>
+</property>
+<property many="false" name="networkProtocol">
+<value>tcp</value>
+</property>
+<property many="false" name="otherProperties">
+<value>driverType=thin</value>
+</property>
+<property displayName="poolable" many="false" name=".CMGRPROP.poolable">
+<value>true</value>
+</property>
+<property displayName="minimumPoolSize" many="false" name=".CMGRPROP.minimumPoolSize">
+<value>1</value>
+</property>
+<property displayName="maximumPoolSize" many="false" name=".CMGRPROP.maximumPoolSize">
+<value>10</value>
+</property>
+<property displayName="poolIncrementSize" many="false" name=".CMGRPROP.poolIncrementSize">
+<value>1</value>
+</property>
+<property displayName="blockingTimeout" many="false" name=".CMGRPROP.blockingTimeout">
+<value>1000</value>
+</property>
+<property displayName="expireTimeout" many="false" name=".CMGRPROP.expireTimeout">
+<value>1000</value>
+</property>
+<property displayName="startupRetryCount" many="false" name=".CMGRPROP.startupRetryCount">
+<value>0</value>
+</property>
+<property displayName="startupBackoffSecs" many="false" name=".CMGRPROP.startupBackoffSecs">
+<value>10</value>
+</property>
+</asset>
+<asset displayName="BstarConnections.DomainConnections:BstarDoConnection" name="BstarConnections.DomainConnections.BstarDoConnection">
+<implementation.generic type="artconnection"/>
+<property displayName="State After Deployment" many="false" name="art.deployment.state">
+<value>disable</value>
+</property>
+<property many="false" name="transactionType">
+<value>LOCAL_TRANSACTION</value>
+</property>
+<property many="false" name="datasourceClass">
+<value>oracle.jdbc.pool.OracleDataSource</value>
+</property>
+<property many="false" name="serverName">
+<value>f2-apac-eai-wm.c6hjaqr7d297.ap-southeast-2.rds.amazonaws.com</value>
+</property>
+<property many="false" name="user">
+<value>Administrator</value>
+</property>
+<property isSecure="true" many="false" name="password">
+<value>{AES}aYrXC43dTWsDUHRWG5mhTA==</value>
+</property>
+<property many="false" name="databaseName">
+<value>APACWMDB</value>
+</property>
+<property many="false" name="portNumber">
+<value>1521</value>
+</property>
+<property many="false" name="networkProtocol">
+<value>tcp</value>
+</property>
+<property many="false" name="otherProperties">
+<value>driverType=thin</value>
+</property>
+<property displayName="poolable" many="false" name=".CMGRPROP.poolable">
+<value>true</value>
+</property>
+<property displayName="minimumPoolSize" many="false" name=".CMGRPROP.minimumPoolSize">
+<value>1</value>
+</property>
+<property displayName="maximumPoolSize" many="false" name=".CMGRPROP.maximumPoolSize">
+<value>10</value>
+</property>
+<property displayName="poolIncrementSize" many="false" name=".CMGRPROP.poolIncrementSize">
+<value>1</value>
+</property>
+<property displayName="blockingTimeout" many="false" name=".CMGRPROP.blockingTimeout">
+<value>1000</value>
+</property>
+<property displayName="expireTimeout" many="false" name=".CMGRPROP.expireTimeout">
+<value>1000</value>
+</property>
+<property displayName="startupRetryCount" many="false" name=".CMGRPROP.startupRetryCount">
+<value>0</value>
+</property>
+<property displayName="startupBackoffSecs" many="false" name=".CMGRPROP.startupBackoffSecs">
+<value>10</value>
+</property>
+</asset>
+<asset displayName="BstarConnections.BussinessConnections:BstarBuConnection" name="BstarConnections.BussinessConnections.BstarBuConnection">
+<implementation.generic type="artconnection"/>
+<property displayName="State After Deployment" many="false" name="art.deployment.state">
+<value>disable</value>
+</property>
+<property many="false" name="transactionType">
+<value>LOCAL_TRANSACTION</value>
+</property>
+<property many="false" name="datasourceClass">
+<value>oracle.jdbc.pool.OracleDataSource</value>
+</property>
+<property many="false" name="serverName">
+<value>f2-apac-eai-wm.c6hjaqr7d297.ap-southeast-2.rds.amazonaws.com</value>
+</property>
+<property many="false" name="user">
+<value>Administrator</value>
+</property>
+<property isSecure="true" many="false" name="password">
+<value>{AES}Y5IgMqjfvkgbg7p5VUZztw==</value>
+</property>
+<property many="false" name="databaseName">
+<value>MyDB</value>
+</property>
+<property many="false" name="portNumber">
+<value>1521</value>
+</property>
+<property many="false" name="networkProtocol">
+<value>tcp</value>
+</property>
+<property many="false" name="otherProperties">
+<value>driverType=thin</value>
+</property>
+<property displayName="poolable" many="false" name=".CMGRPROP.poolable">
+<value>true</value>
+</property>
+<property displayName="minimumPoolSize" many="false" name=".CMGRPROP.minimumPoolSize">
+<value>1</value>
+</property>
+<property displayName="maximumPoolSize" many="false" name=".CMGRPROP.maximumPoolSize">
+<value>10</value>
+</property>
+<property displayName="poolIncrementSize" many="false" name=".CMGRPROP.poolIncrementSize">
+<value>1</value>
+</property>
+<property displayName="blockingTimeout" many="false" name=".CMGRPROP.blockingTimeout">
+<value>1000</value>
+</property>
+<property displayName="expireTimeout" many="false" name=".CMGRPROP.expireTimeout">
+<value>1000</value>
+</property>
+<property displayName="startupRetryCount" many="false" name=".CMGRPROP.startupRetryCount">
+<value>0</value>
+</property>
+<property displayName="startupBackoffSecs" many="false" name=".CMGRPROP.startupBackoffSecs">
+<value>10</value>
+</property>
+</asset>
+<asset displayName="pub" name="BstarConnections.pub">
+<implementation.generic type="isfolder"/>
+</asset>
+</asset_composite>

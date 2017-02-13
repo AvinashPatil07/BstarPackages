@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="US-ASCII"?><SoftwareAG_License>
+<Component Id="SalesInfo">
+<SerialNumber>0000280271</SerialNumber>
+<LicenseKey>7DF67267277AE9E0071D1043978E1152</LicenseKey>
+<CustomerID>7512907</CustomerID>
+<CustomerName>Brightstar Corporation </CustomerName>
+<ContractDetails>2046771</ContractDetails>
+<ContractPosNumber>001250</ContractPosNumber>
+<LicenseTypeDetails>External</LicenseTypeDetails>
+<AutoCallHome/>
+</Component>
+<Component Id="ProductInfo">
+<ExpirationDate>Unlimited</ExpirationDate>
+<OS>Linux</OS>
+<ProductCode>WOK</ProductCode>
+<ProductID/>
+<ProductName>Rules</ProductName>
+<ProductVersion>9.9</ProductVersion>
+<Usage>Testing</Usage>
+<RenewalDate/>
+<HigherLevPosNr>000970</HigherLevPosNr>
+<HigherLevProdCode>WMPR1</HigherLevProdCode>
+<HigherLevProdName>BPMS Processor Core based bundle (WMPR1)</HigherLevProdName>
+</Component>
+<Component Id="RulesServer">
+<ProductCode>WOK</ProductCode>
+<ProductVersion>9.9</ProductVersion>
+<Container>IS</Container>
+</Component>
+<Component Id="RulesFeatures">
+<PublicAPI>no</PublicAPI>
+<ProcessActions>no</ProcessActions>
+<ServiceActions>no</ServiceActions>
+<CreateDataActions>no</CreateDataActions>
+<ExternalEventRules>no</ExternalEventRules>
+<SynchronousInvokeFromBPM>yes</SynchronousInvokeFromBPM>
+</Component>
+<Component Id="RulesEdition">
+<Edition>webMethods</Edition>
+<AdditionalFeatures>no</AdditionalFeatures>
+</Component>
+<Component Id="LicenseInfo">
+<PriceUnit>CoreB</PriceUnit>
+<PriceQuantity>600</PriceQuantity>
+<TypeOfInstallation>Testing</TypeOfInstallation>
+<LicenseType>Test</LicenseType>
+<ExtendedRights>TPD,SBD,OU0,AS1,LP4,</ExtendedRights>
+<LicenseVersion>1.2</LicenseVersion>
+<Metering/>
+</Component>
+</SoftwareAG_License>

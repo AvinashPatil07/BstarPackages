@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="1" type="Simulate">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-02-07 15:43:54 IST</startTime>
+<projectName>SivaTestProj_proj</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-02-07 15:43:54 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1168] Deleted previously delivered artifacts successfully for IS.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1164] Artifacts delivered successfully to IS.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="WARNING">
+<messagebody>Executing the simulate operation. Deployer will not deploy the assets to the Integration Server.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="" type=""/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset HTTPListener@5555 of type isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Regular.5555" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset HTTPListener@5555 of type isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Regular.5555" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset HTTPListener@5555 of type isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Regular.5555" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset HTTPListener@5555 of type isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Regular.5555" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset HTTPListener@5555 of type isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Regular.5555" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset HTTPListener@9999 of type isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Diagnostic.9999" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset HTTPListener@9999 of type isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Diagnostic.9999" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset HTTPListener@9999 of type isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Diagnostic.9999" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset HTTPListener@9999 of type isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Diagnostic.9999" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset HTTPListener@9999 of type isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Diagnostic.9999" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="SUCCESS">
+<messagebody>Successfully deployed 2 isport.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="isport" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset DEFAULT_IS_JNDI_PROVIDER of type isjndialias.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="JNDIAlias.DEFAULT_IS_JNDI_PROVIDER" type="isjndialias"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset Sample of type isjndialias.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="JNDIAlias.Sample" type="isjndialias"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="SUCCESS">
+<messagebody>Successfully deployed 2 isjndialias.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="isjndialias" type="isjndialias"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset DEFAULT_IS_JMS_CONNECTION of type isjmsalias.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="JMSAlias.DEFAULT_IS_JMS_CONNECTION" type="isjmsalias"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset PE_NONTRANSACTIONAL_ALIAS of type isjmsalias.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="JMSAlias.PE_NONTRANSACTIONAL_ALIAS" type="isjmsalias"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="SUCCESS">
+<messagebody>Successfully deployed 2 isjmsalias.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="isjmsalias" type="isjmsalias"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset Metadata Settings of type ismetadata.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="ISMetadata.ismetadata" type="ismetadata"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="SUCCESS">
+<messagebody>Successfully deployed 16 iswspolicy.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="iswspolicy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:43:55 IST" type="MESSAGE">
+<messagebody>Deployer will add or update asset FileAccessControl Config of type isfileaccesscontrol.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="FileAccessControlConfig.isfileaccesscontrol" type="isfileaccesscontrol"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-02-07 15:43:55 IST</endTime>
+</Report>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="2" type="Simulate">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-02-13 17:12:42 IST</startTime>
+<projectName>BPM_demo</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-02-13 17:12:42 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1168] Deleted previously delivered artifacts successfully for IS.</messagebody>
+<attributes>
+<targetserver name="Bibin_Remote"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-13 17:12:42 IST" type="ERROR">
+<messagebody>[ISS.0088.9112] An Exception was thrown in the server:com.softwareag.rules.runtime.exception.RESCoreException: Unable to execute the requested operation due to an error at package startup. See log for more details!
+</messagebody>
+<attributes>
+<targetserver name="Bibin_Brule"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-13 17:12:42 IST" type="MESSAGE">
+<messagebody>[DEP.0005.1168] Deleted previously delivered artifacts successfully for ProcessModel.</messagebody>
+<attributes>
+<targetserver name="Bibin_BPM_Remote"/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-02-13 17:12:43 IST</endTime>
+</Report>

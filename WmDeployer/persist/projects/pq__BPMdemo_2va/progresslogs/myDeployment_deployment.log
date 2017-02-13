@@ -1,0 +1,11 @@
+2017-02-13 17:20:40 IST [DEP.0005.1176] Initiating the progress report for the deploy operation.
+2017-02-13 17:20:41 IST [DEP.0008.0011] Initiating the progress report for the checkpoint operation.
+2017-02-13 17:20:41 IST [DEP.0008.0017] Deleting previously generated checkpoints for deployment candidate myDeployment.
+2017-02-13 17:20:41 IST [DEP.0008.0019] Deleting checkpoints previously generated for Bibin_BPM_Remote.
+2017-02-13 17:20:41 IST [DEP.0008.0019] Deleting checkpoints previously generated for Bibin_Remote.
+2017-02-13 17:20:41 IST [DEP.0008.0019] Deleting checkpoints previously generated for Bibin_Brule.
+2017-02-13 17:20:42 IST [DEP.0008.0020] Successfully deleted checkpoints generated for Bibin_Remote.
+2017-02-13 17:20:42 IST [DEP.0008.0022] Failed to delete checkpoint for target server Bibin_Brule.
+2017-02-13 17:20:42 IST [DEP.0008.0022] Failed to delete checkpoint for target server Bibin_BPM_Remote.
+2017-02-13 17:20:43 IST [DEP.0008.0012] Completing the progress report for the checkpoint operation.
+2017-02-13 17:20:43 IST [DEP.0005.1177] Completing the progress report for the deploy operation.

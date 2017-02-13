@@ -1,0 +1,9 @@
+2017-02-13 11:55:25 IST [DEP.0005.1180] Initiating the progress report for the simulate operation.
+2017-02-13 11:55:26 IST [DEP.0005.1163] Starting deliver operation for deployment candidate myDeployment.
+2017-02-13 11:55:26 IST [DEP.0005.1165] Deleting previously delivered artifacts.
+2017-02-13 11:55:26 IST [DEP.0005.1169] Deleting artifacts previously delivered to Bibin_Brule.
+2017-02-13 11:55:26 IST [DEP.0005.1169] Deleting artifacts previously delivered to Bibin_Remote.
+2017-02-13 11:55:26 IST [DEP.0005.1170] Deleted artifacts previously delivered to Bibin_Remote successfully.
+2017-02-13 11:55:26 IST [DEP.0005.1195] The deletion of delivered to the Bibin_Brule target server artifacts failed. For details, check the logs of the target server.
+2017-02-13 11:55:26 IST [DEP.0005.1160] Artifacts delivered successfully for deployment candidate myDeployment.
+2017-02-13 11:55:26 IST [DEP.0005.1181] Completing the progress report for the simulate operation.

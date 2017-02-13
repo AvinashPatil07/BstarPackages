@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:sample="http://sample" name="TestProcessProject_TestProcess.(1)" runtimeVersion="9.12.0" targetNamespace="http://namespaces.softwareag.com/webMethods/BPM">
+<implementation.generic type="bpmprocess"/>
+<asset displayName="TestProcessProject/TestProcess" name="Process.TestProcessProject_TestProcess">
+<implementation.generic type="bpmprocess"/>
+<dependsOn>IS:TestProcessProject.TestProcess.BstarLogicalServer.subscriptionTrigger</dependsOn>
+<dependsOn>IS:TestProcessProject.TestProcess.TestProcess_1.BstarLogicalServer.Message_Event1</dependsOn>
+<dependsOn>IS:TestProcessProject.TestProcess.TestProcess_1.BstarLogicalServer.SampleDT_InputMapService</dependsOn>
+<dependsOn>IS:TestProcessProject.TestProcess.TestProcess_1.BstarLogicalServer.SampleDT_OutputMapService</dependsOn>
+<dependsOn>IS:TestProcessProject.TestProcess.TestProcess_1.BstarLogicalServer.SampleServiceStep</dependsOn>
+<dependsOn>IS:TestProcessProject.TestProcess.TestProcess_1.BstarLogicalServer.SampleTaskStep_InputMapService</dependsOn>
+<dependsOn>IS:TestProcessProject.TestProcess.TestProcess_1.BstarLogicalServer.SampleTaskStep_OutputMapService</dependsOn>
+<dependsOn>IS:TestProcessProject.TestProcess.TestProcess_1.BstarLogicalServer.SampleTaskStep_QueueTask</dependsOn>
+<dependsOn>IS:TestProcessProject.TestProcess.TestProcess_1.BstarLogicalServer.transitionTrigger</dependsOn>
+<dependsOn>IS:TestProcessProject.config.wmprt.TestProcessProject.TestProcess.TestProcessProject_TestProcess1.BstarLogicalServer.xml</dependsOn>
+<dependsOn>MWS:Task.202258BF-2657-1F8E-8C2F-C0FF82AEF7BE</dependsOn>
+<dependsOn>RULES:RuleDecisionTable.TestRuleProject.SampleDT</dependsOn>
+<property displayName="Execution Enabled" many="false" name="executionEnabled">
+<value>false</value>
+</property>
+<property displayName="Tracking Enabled" many="false" name="trackingEnabled">
+<value>false</value>
+</property>
+<property displayName="Logging Level" many="false" name="loggingLevel">
+<value>5</value>
+</property>
+<property displayName="Enabled for Resubmission: SampleServiceStep" many="false" name="S10">
+<value>false</value>
+</property>
+<property displayName="Enabled for Resubmission: End Event1" many="false" name="S12">
+<value>false</value>
+</property>
+<property displayName="Enabled for Resubmission: Message Event1" many="false" name="S9">
+<value>false</value>
+</property>
+<property displayName="Enabled for Resubmission: SampleDT" many="false" name="S15">
+<value>false</value>
+</property>
+<property displayName="Enabled for Resubmission: SampleTaskStep" many="false" name="S14">
+<value>false</value>
+</property>
+</asset>
+</asset_composite>

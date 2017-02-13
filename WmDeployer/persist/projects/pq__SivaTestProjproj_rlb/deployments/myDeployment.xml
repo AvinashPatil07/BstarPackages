@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="auditReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaTestProjproj_rlb\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1486462455511.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaTestProjproj_rlb\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1486475353253.xml</string>
+   </void>
+  </void>
+  <void property="buildName">
+   <string>SivaTestProj_proj_1486462433807.build</string>
+  </void>
+  <void property="checkpointReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaTestProjproj_rlb\checkpoints\myDeployment\pq__SivaTestProjprojCheckpoint_wdc\reports\CheckpointReport_1486462449569.xml</string>
+   </void>
+  </void>
+  <void property="checkpointed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deploymentId">
+   <string>a13fe7fe-4b3f-48bf-9c7f-0b8c2637344f</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>myDeploymentMap</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="name">
+   <string>myDeployment</string>
+  </void>
+  <void property="preDeployReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__SivaTestProjproj_rlb\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1486462434534.xml</string>
+   </void>
+  </void>
+  <void property="projectName">
+   <string>SivaTestProj_proj</string>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

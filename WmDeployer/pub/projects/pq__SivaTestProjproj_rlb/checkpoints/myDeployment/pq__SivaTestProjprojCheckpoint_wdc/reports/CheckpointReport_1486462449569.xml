@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="repository-deploySimulateRollback.xsl"?><Report projectType="Repository" status="0" type="Checkpoint">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<projectDescription/>
+<startTime>2017-02-07 15:44:09 IST</startTime>
+<projectName>SivaTestProj_proj</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2017-02-07 15:44:09 IST" type="MESSAGE">
+<messagebody>[DEP.0008.0021] Successfully deleted checkpoints for IS.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset Port.WmRoot.Regular.5555 exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Regular.5555" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset Port.WmRoot.Diagnostic.9999 exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="Port.WmRoot.Diagnostic.9999" type="isport"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset JNDIAlias.DEFAULT_IS_JNDI_PROVIDER exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="JNDIAlias.DEFAULT_IS_JNDI_PROVIDER" type="isjndialias"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset JNDIAlias.Sample does not exist in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="JNDIAlias.Sample" type="isjndialias"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset JMSAlias.DEFAULT_IS_JMS_CONNECTION exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="JMSAlias.DEFAULT_IS_JMS_CONNECTION" type="isjmsalias"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset JMSAlias.PE_NONTRANSACTIONAL_ALIAS exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="JMSAlias.PE_NONTRANSACTIONAL_ALIAS" type="isjmsalias"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset ISMetadata.ismetadata exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="ISMetadata.ismetadata" type="ismetadata"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.Addressing.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.Addressing.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.Addressing_Submission.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.Addressing_Submission.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.KerberosAuthentication.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.KerberosAuthentication.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.ReliableMessaging.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.ReliableMessaging.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.SAMLAuthentication.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.SAMLAuthentication.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.SAMLAuthentication_Encryption.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.SAMLAuthentication_Encryption.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.SAMLAuthentication_Signature.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.SAMLAuthentication_Signature.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.SAMLAuthentication_Signature_Encryption.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.SAMLAuthentication_Signature_Encryption.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.Username_Encryption.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.Username_Encryption.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.Username_Over_Transport.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.Username_Over_Transport.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.Username_Signature.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.Username_Signature.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.Username_Signature_Encryption.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.Username_Signature_Encryption.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.X509Authentication.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.X509Authentication.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.X509Authentication_Encryption.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.X509Authentication_Encryption.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.X509Authentication_Signature.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.X509Authentication_Signature.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset WSPolicy.X509Authentication_Signature_Encryption.policy exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="WSPolicy.X509Authentication_Signature_Encryption.policy" type="iswspolicy"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Asset FileAccessControlConfig.isfileaccesscontrol exists in the target Integration Server. Created checkpoint for the asset.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="FileAccessControlConfig.isfileaccesscontrol" type="isfileaccesscontrol"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Created ACDL file for the composite isconfiguration.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="isconfiguration" type="isconfiguration"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Created binary file for the composite isconfiguration.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="isconfiguration" type="isconfiguration"/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="MESSAGE">
+<messagebody>Persisted assets for checkpoint ID a13fe7fe-4b3f-48bf-9c7f-0b8c2637344f.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="" type=""/>
+</attributes>
+</message>
+<message timeStamp="2017-02-07 15:44:14 IST" type="SUCCESS">
+<messagebody>Successfully created checkpoint for the checkpoint ID a13fe7fe-4b3f-48bf-9c7f-0b8c2637344f.</messagebody>
+<attributes>
+<targetserver name="Pra_machine"/>
+<asset name="" type=""/>
+</attributes>
+</message>
+</messages>
+<endTime>2017-02-07 15:44:15 IST</endTime>
+</Report>

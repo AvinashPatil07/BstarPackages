@@ -280,6 +280,36 @@
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="com.wm.deployer.project.Bundle" id="Bundle2">
+     <void property="allowedSourceServers">
+      <void method="add">
+       <string>Git_Repo</string>
+      </void>
+     </void>
+     <void property="description">
+      <string></string>
+     </void>
+     <void property="fetchBy">
+      <null/>
+     </void>
+     <void property="name">
+      <string>myDeploymentSet2</string>
+     </void>
+     <void property="project">
+      <object idref="Project0"/>
+     </void>
+     <void property="sourceOfTruth">
+      <string>FlatFile</string>
+     </void>
+     <void property="type">
+      <string>Repository</string>
+     </void>
+     <void property="version">
+      <string>4.0</string>
+     </void>
+    </object>
+   </void>
   </void>
   <void property="concurrentDeployment">
    <boolean>true</boolean>

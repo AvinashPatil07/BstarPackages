@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="buildName">
+   <string>BPM_demo_1486986161524.build</string>
+  </void>
+  <void property="checkpointReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__BPMdemo_2va\checkpoints\myDeployment\pq__BPMdemoCheckpoint_7nb\reports\CheckpointReport_1486986641853.xml</string>
+   </void>
+  </void>
+  <void property="deploymentId">
+   <string>08374c7a-ada4-4178-afcc-3eec403f51ba</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>myDeploymentMap</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="name">
+   <string>myDeployment</string>
+  </void>
+  <void property="preDeployReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__BPMdemo_2va\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1486986162417.xml</string>
+   </void>
+  </void>
+  <void property="projectName">
+   <string>BPM_demo</string>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>
