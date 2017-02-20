@@ -1,0 +1,25 @@
+<project name="PokalaProject" default="db-migrate" basedir=".">
+	<description>simple example build file for db-migrate</description>
+
+	<!-- set global properties for this build -->
+	<property name="src" location="src" />
+	<property name="build" location="build" />
+
+	<taskdef name="dbrelease" classname="net.sf.migratedb.ant.MigrateDbTask" classpath="lib/migratedb.jar;lib/ojdbc7.jar" />
+
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp />
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}" />
+	</target>
+
+	<target name="compile" depends="init" description="compile the source">
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}" />
+	</target>
+
+	<target name="db-migrate" description="Migrate database objects to latest version">
+		<dbrelease driver="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@f2-apac-eai-wm.c6hjaqr7d297.ap-southeast-2.rds.amazonaws.com:1521:APACWMDB" userid="WMSYS" password="brightstar" apply="true" file="config/db_external.xml" />
+	</target>
+</project>

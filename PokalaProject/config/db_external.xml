@@ -1,0 +1,12 @@
+<project>
+	<change>
+		<sqltest exists="false">
+			SELECT NULL FROM USER_OBJECTS
+			WHERE OBJECT_NAME
+			= 'AAA_TEST_PERSONS'			
+		</sqltest>
+		<sqlaction path="sql" file="Persons.sql" />
+		<sqlaction path="sql" file="Persons.sql" />
+		<sqlaction path="sql" file="Persons.sql" />
+	</change>
+</project>

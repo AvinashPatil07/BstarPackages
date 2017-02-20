@@ -1,0 +1,19 @@
+<project>
+	<change>
+		<sqltest exists="false">
+			SELECT NULL FROM USER_OBJECTS
+			WHERE OBJECT_NAME
+			= 'AAA_TEST_PERSONS'
+		</sqltest>
+		<sqlaction>
+			CREATE TABLE AAA_TEST_PERSONS (
+			person_id INTEGER, full_name
+			VARCHAR2(300))
+		</sqlaction>
+		<sqlaction>
+			ALTER TABLE AAA_TEST_PERSONS ADD CONSTRAINT person_pk
+			PRIMARY KEY (person_id)
+			USING INDEX
+		</sqlaction>
+	</change>
+</project>
