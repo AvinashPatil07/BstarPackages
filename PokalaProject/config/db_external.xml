@@ -6,7 +6,5 @@
 			= 'AAA_TEST_PERSONS'			
 		</sqltest>
 		<sqlaction path="sql" file="Persons.sql" />
-		<sqlaction path="sql" file="Persons.sql" />
-		<sqlaction path="sql" file="Persons.sql" />
 	</change>
 </project>
